@@ -32,6 +32,7 @@ public class TestJsonReader {
     JsonArray videos = je.getAsJsonArray();
     logger.info(String.format("video size is %d", videos.size()));
     assertTrue(videos.size() == 474);
+    
   }
 
 }
