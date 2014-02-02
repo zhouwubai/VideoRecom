@@ -2,6 +2,7 @@ package edu.fiu.cs.VideoRecom.tagger;
 
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
 
 import org.jsoup.Jsoup;
@@ -31,6 +32,7 @@ public class TagExtractor {
     try {
       rtnJson = Jsoup.connect(dbUrlBase).data("lookupText", query)
           .method(Method.POST).ignoreContentType(true).execute().body();
+      logger.info("sendRequest complete...");
       return rtnJson;
     } catch (IOException e) {
       // TODO Auto-generated catch block
@@ -45,12 +47,22 @@ public class TagExtractor {
     JsonArray rawTags = parser.parse(json).getAsJsonArray();
     List<YouTubeTag> tags = new ArrayList<YouTubeTag>();
 
+    HashSet<String> checkNameDup = new HashSet<String>();
     for (JsonElement e : rawTags) {
       YouTubeTag tag = new YouTubeTag();
       JsonObject jsonTag = e.getAsJsonObject();
       int startOffset = jsonTag.get("startOffset").getAsInt();
       int endOffset = jsonTag.get("endOffset").getAsInt();
       String instanceClass = jsonTag.get("instanceClass").getAsString();
+      
+      //check duplicate
+      String name = query.substring(startOffset, endOffset);
+      if(checkNameDup.contains(name)){
+        continue;
+      }else{
+        checkNameDup.add(name);
+      }
+      
       tag.setName(query.substring(startOffset, endOffset));
       tag.setType(instanceClass.substring(instanceClass.lastIndexOf("/")+1));
       tags.add(tag);

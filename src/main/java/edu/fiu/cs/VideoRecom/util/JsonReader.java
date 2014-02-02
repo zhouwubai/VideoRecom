@@ -28,17 +28,28 @@ public class JsonReader {
     this.path = path;
   }
 
-  public JsonElement parse() throws IOException {
+  public JsonElement parse() {
 
     StringBuffer sb = new StringBuffer();
-    BufferedReader br = new BufferedReader(new FileReader(path));
-    String line = br.readLine();
-    while (line != null) {
-      sb.append(line);
-      line = br.readLine();
+    BufferedReader br;
+    
+    try {
+      br = new BufferedReader(new FileReader(path));
+      String line = br.readLine();
+      while (line != null) {
+        sb.append(line);
+        line = br.readLine();
+      }
+      Closeables.close(br, true);
+      logger.info("file reading done...");
+    } catch (IOException e) {
+      // TODO Auto-generated catch block
+      e.printStackTrace();
+      logger.error("reading file error...");
+      //when error happens, empty StringBuffer,set it to empty json array
+      sb.delete(0, sb.length());
+      sb.append("[]");
     }
-    Closeables.close(br, true);
-    logger.info("file reading done...");
     
     JsonParser parser = new JsonParser();
     JsonElement rtn = parser.parse(sb.toString());

@@ -10,6 +10,7 @@ import org.slf4j.LoggerFactory;
 
 import com.google.common.io.Closeables;
 import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
 import com.google.gson.JsonElement;
 
 import edu.fiu.cs.VideoRecom.common.YouTubeVideo;
@@ -19,7 +20,9 @@ public class JsonWriter {
   public static String DATA_OUT_PATH = "./src/test/resources/TaggedDataSet.json";
 
   private static Logger logger = LoggerFactory.getLogger(JsonWriter.class);
-  private static Gson gson = new Gson();
+  private static Gson gson = new GsonBuilder()
+                             .setPrettyPrinting()
+                             .create();
   private String path;
 
   public JsonWriter(String path) {
