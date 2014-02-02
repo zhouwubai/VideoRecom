@@ -27,6 +27,11 @@ public class YouTubeVideo {
   private ArrayList<String> categories;
   private List<YouTubeTag> tags;
 
+  public YouTubeVideo() {
+    categories = new ArrayList<String>();
+    tags = new ArrayList<YouTubeTag>();
+  }
+  
   public String getTitle() {
     return title;
   }
@@ -44,8 +49,6 @@ public class YouTubeVideo {
   }
 
   public ArrayList<String> getCategories() {
-    if (categories == null)
-      this.categories = new ArrayList<String>();
     return categories;
   }
 
@@ -54,8 +57,6 @@ public class YouTubeVideo {
   }
 
   public List<YouTubeTag> getTags() {
-    if (tags == null)
-      this.tags = new ArrayList<YouTubeTag>();
     return tags;
   }
 

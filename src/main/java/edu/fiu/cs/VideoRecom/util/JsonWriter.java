@@ -31,6 +31,9 @@ public class JsonWriter {
     this.path = path;
   }
 
+  public boolean write(Object obj){
+    return write(gson.toJson(obj));
+  }
   
   public boolean write(List<YouTubeVideo> videos){
     return write(gson.toJson(videos));

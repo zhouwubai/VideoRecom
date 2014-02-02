@@ -6,10 +6,13 @@ import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 
+import org.jblas.DoubleMatrix;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import edu.fiu.cs.VideoRecom.common.YouTubeVideo;
+import edu.fiu.cs.VideoRecom.util.JsonReader;
+import edu.fiu.cs.VideoRecom.util.JsonWriter;
 
 /**
  * Here i use simple algorithm to get related video The feature I am using is
@@ -25,6 +28,7 @@ public class Recommender {
 
   private List<YouTubeVideo> videos;
   private double[][] simGraph = null;
+  private Map<String, Double> conf = new HashMap<String, Double>();
 
   private void checkVideosSetup() {
     if (videos == null) {
@@ -33,7 +37,42 @@ public class Recommender {
     }
   }
 
-  public void computeSimGraph(Map<String, Double> conf) {
+  public void recommend() {
+    computeSimGraph();
+    DoubleMatrix sim = new DoubleMatrix(simGraph);
+    int[][] sortIdx = sim.rowSortingPermutations();
+    List<List<YouTubeVideo>> recomVideoGroups = new ArrayList<List<YouTubeVideo>>();
+
+    // Here we will choose four, first one is itself.
+    for (int i = 0; i < sortIdx.length; i++) {
+      List<YouTubeVideo> oneGroup = new ArrayList<YouTubeVideo>();
+      for (int j = 0; j < 4; j++) {
+        oneGroup.add(videos.get(sortIdx[i][j]));
+      }
+      recomVideoGroups.add(oneGroup);
+    }
+    
+    JsonWriter jw = new JsonWriter(JsonWriter.RECOM_DATA_OUT_PATH);
+    jw.write(recomVideoGroups);
+  }
+
+  public static void main(String[] args) {
+    
+    Recommender recom = new Recommender();
+    Map<String,Double> conf = new HashMap<String, Double>();
+    conf.put(YouTubeVideo.TAG_W, 5d);
+    conf.put(YouTubeVideo.TITLE_W,2d);
+    conf.put(YouTubeVideo.DESC_W, 1d);
+    conf.put(YouTubeVideo.N_GRAM, 3d);
+    
+    JsonReader jr = new JsonReader(JsonWriter.DATA_OUT_PATH);
+    recom.setVideos(YouTubeVideo.parseJsonToTaggedVideos(jr.parse().getAsJsonArray()));
+    recom.setConf(conf);
+    
+    recom.recommend();
+  }
+  
+  private void computeSimGraph() {
     checkVideosSetup();
 
     Map<String, Integer> idf = new HashMap<String, Integer>();
@@ -83,6 +122,7 @@ public class Recommender {
         simGraph[i][j] = simGraph[j][i] = innerProduct(X.get(i), X.get(j));
       }
     }
+    logger.info("similarity computation done...");
 
   }
 
@@ -112,6 +152,10 @@ public class Recommender {
 
   public double[][] getSimGraph() {
     return simGraph;
+  }
+
+  public void setConf(Map<String, Double> conf) {
+    this.conf = conf;
   }
 
 }
