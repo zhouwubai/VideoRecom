@@ -18,7 +18,8 @@ import edu.fiu.cs.VideoRecom.common.YouTubeVideo;
 public class JsonWriter {
 
   public static String DATA_OUT_PATH = "./src/test/resources/TaggedDataSet.json";
-
+  public static String RECOM_DATA_OUT_PATH = "./src/test/resources/RecommDataSet.json";
+  
   private static Logger logger = LoggerFactory.getLogger(JsonWriter.class);
   private static Gson gson = new GsonBuilder()
                              .setPrettyPrinting()

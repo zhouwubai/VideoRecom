@@ -60,5 +60,12 @@
 			<artifactId>jsoup</artifactId>
 			<version>1.7.2</version>
 		</dependency>
+
+		<!-- java linear algebra library -->
+		<dependency>
+			<groupId>org.jblas</groupId>
+			<artifactId>jblas</artifactId>
+			<version>1.2.3</version>
+		</dependency>
 	</dependencies>
 </project>

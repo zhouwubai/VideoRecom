@@ -70,13 +70,13 @@ public class YouTubeVideo {
    * @param conf
    * @return tf term frequency
    */
-  public Map<String, Integer> getNgrams(Map<String, Integer> conf) {
-    Integer tagW = conf.containsKey(TAG_W) ? conf.get(TAG_W) : 5;
-    Integer titleW = conf.containsKey(TITLE_W) ? conf.get(TITLE_W) : 2;
-    Integer descW = conf.containsKey(DESC_W) ? conf.get(DESC_W) : 1;
-    Integer ngram = conf.containsKey(N_GRAM) ? conf.get(N_GRAM) : 3;
+  public Map<String, Double> getNgrams(Map<String, Double> conf) {
+    Double tagW = conf.containsKey(TAG_W) ? conf.get(TAG_W) : 5;
+    Double titleW = conf.containsKey(TITLE_W) ? conf.get(TITLE_W) : 2;
+    Double descW = conf.containsKey(DESC_W) ? conf.get(DESC_W) : 1;
+    Double ngram = conf.containsKey(N_GRAM) ? conf.get(N_GRAM) : 3;
 
-    Map<String, Integer> tf = new HashMap<String, Integer>();
+    Map<String, Double> tf = new HashMap<String, Double>();
     // every occurrence of tag times tagW
     for (YouTubeTag tag : tags) {
       if (tf.containsKey(tag.getName())) {
@@ -123,6 +123,12 @@ public class YouTubeVideo {
     return tf;
   }
 
+  /**
+   * parse json to YouTubeVideo objects but without tags
+   * 
+   * @param jsonVideos
+   * @return videos with no tags
+   */
   public static List<YouTubeVideo> parseJsonToVideos(JsonArray jsonVideos) {
 
     List<YouTubeVideo> videos = new ArrayList<YouTubeVideo>();
@@ -136,6 +142,35 @@ public class YouTubeVideo {
       JsonArray cgs = jeTmp.get("categories").getAsJsonArray();
       for (JsonElement cg : cgs) {
         vd.getCategories().add(cg.getAsString());
+      }
+
+      videos.add(vd);
+    }
+
+    return videos;
+  }
+
+  public static List<YouTubeVideo> parseJsonToTaggedVideos(JsonArray jsonVideos) {
+
+    List<YouTubeVideo> videos = new ArrayList<YouTubeVideo>();
+
+    for (JsonElement je : jsonVideos) {
+      YouTubeVideo vd = new YouTubeVideo();
+      JsonObject jeTmp = je.getAsJsonObject();
+      vd.setTitle(jeTmp.get("title").getAsString());
+      vd.setDescription(jeTmp.get("description").getAsString());
+
+      JsonArray cgs = jeTmp.get("categories").getAsJsonArray();
+      for (JsonElement cg : cgs) {
+        vd.getCategories().add(cg.getAsString());
+      }
+
+      JsonArray tags = jeTmp.get("tags").getAsJsonArray();
+      for (JsonElement tag : tags) {
+        YouTubeTag ytTag = new YouTubeTag();
+        ytTag.setName(tag.getAsJsonObject().get("name").getAsString());
+        ytTag.setType(tag.getAsJsonObject().get("type").getAsString());
+        vd.getTags().add(ytTag);
       }
 
       videos.add(vd);
