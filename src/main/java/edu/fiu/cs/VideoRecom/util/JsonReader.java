@@ -18,7 +18,7 @@ import com.google.gson.JsonParser;
  */
 public class JsonReader {
 
-  public static String DATA_PATH = "./src/test/resources/CodeAssignmentDataSet.json";
+  public static String DATA_INPUT_PATH = "./src/test/resources/CodeAssignmentDataSet.json";
 
   private static Logger logger = LoggerFactory.getLogger(JsonReader.class);
   private String path;
@@ -31,7 +31,7 @@ public class JsonReader {
   public JsonElement parse() throws IOException {
 
     StringBuffer sb = new StringBuffer();
-    BufferedReader br = new BufferedReader(new FileReader(DATA_PATH));
+    BufferedReader br = new BufferedReader(new FileReader(path));
     String line = br.readLine();
     while (line != null) {
       sb.append(line);

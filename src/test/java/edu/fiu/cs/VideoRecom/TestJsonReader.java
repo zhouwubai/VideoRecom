@@ -21,7 +21,7 @@ public class TestJsonReader {
 
   @Before
   public void setup() {
-    this.jr = new JsonReader(JsonReader.DATA_PATH);
+    this.jr = new JsonReader(JsonReader.DATA_INPUT_PATH);
   }
 
   @Test
