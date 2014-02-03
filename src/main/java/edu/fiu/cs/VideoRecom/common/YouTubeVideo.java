@@ -20,6 +20,7 @@ public class YouTubeVideo {
   public static String TAG_W = "tag.weight";
   public static String TITLE_W = "title.weight";
   public static String DESC_W = "desc.weight";
+  public static String CATEG_W = "categ.weight";
   public static String N_GRAM = "n.gram";
 
   private String title;
@@ -72,8 +73,9 @@ public class YouTubeVideo {
    * @return tf term frequency
    */
   public Map<String, Double> getNgrams(Map<String, Double> conf) {
-    Double tagW = conf.containsKey(TAG_W) ? conf.get(TAG_W) : 5;
-    Double titleW = conf.containsKey(TITLE_W) ? conf.get(TITLE_W) : 2;
+    Double tagW = conf.containsKey(TAG_W) ? conf.get(TAG_W) : 3;
+    Double titleW = conf.containsKey(TITLE_W) ? conf.get(TITLE_W) : 1;
+    Double categW = conf.containsKey(CATEG_W) ? conf.get(CATEG_W) : 1;
     Double descW = conf.containsKey(DESC_W) ? conf.get(DESC_W) : 1;
     Double ngram = conf.containsKey(N_GRAM) ? conf.get(N_GRAM) : 3;
 
@@ -81,9 +83,18 @@ public class YouTubeVideo {
     // every occurrence of tag times tagW
     for (YouTubeTag tag : tags) {
       if (tf.containsKey(tag.getName())) {
-        tf.put(tag.getName(), tf.get(tag.getName() + tagW * 1));
+        tf.put(tag.getName(), tf.get(tag.getName()) + tagW * 1);
       } else {
         tf.put(tag.getName(), tagW * 1);
+      }
+    }
+    
+    //every occurrence of categories times categW
+    for(String categ : categories){
+      if (tf.containsKey(categ)) {
+        tf.put(categ, tf.get(categ) + categW * 1);
+      } else {
+        tf.put(categ, categW * 1);
       }
     }
 

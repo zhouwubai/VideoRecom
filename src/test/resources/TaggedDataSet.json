@@ -37,10 +37,6 @@
         "type": "Actor"
       },
       {
-        "name": "Magazine",
-        "type": "Band"
-      },
-      {
         "name": "The Insider",
         "type": "TelevisionEpisode"
       },
@@ -80,10 +76,6 @@
     ],
     "tags": [
       {
-        "name": "HBO",
-        "type": "Broadcast"
-      },
-      {
         "name": "Beverly D\u0027Angelo",
         "type": "Actor"
       }
@@ -96,12 +88,7 @@
       "entertainment",
       "tv_and_movies"
     ],
-    "tags": [
-      {
-        "name": "Magazine",
-        "type": "Band"
-      }
-    ]
+    "tags": []
   },
   {
     "title": "More\u0027s Alison Bailes talks Black Swan on The Today Show 12/5/10",
@@ -116,10 +103,6 @@
       {
         "name": "Black Swan",
         "type": "Film"
-      },
-      {
-        "name": "Magazine",
-        "type": "Band"
       }
     ]
   },
@@ -148,10 +131,6 @@
     ],
     "tags": [
       {
-        "name": "Marathon",
-        "type": "Film"
-      },
-      {
         "name": "The View",
         "type": "Band"
       },
@@ -178,16 +157,7 @@
       "entertainment",
       "tv_and_movies"
     ],
-    "tags": [
-      {
-        "name": "Moms",
-        "type": "TelevisionShow"
-      },
-      {
-        "name": "Movie",
-        "type": "TelevisionEpisode"
-      }
-    ]
+    "tags": []
   },
   {
     "title": "More Oscar Predictions on CBS Early Show 2/26/11",
@@ -233,10 +203,6 @@
       {
         "name": "Dora the Explorer",
         "type": "TelevisionShow"
-      },
-      {
-        "name": "Dora",
-        "type": "Person"
       }
     ]
   },
@@ -249,10 +215,6 @@
       "entertainment"
     ],
     "tags": [
-      {
-        "name": "Jan",
-        "type": "Person"
-      },
       {
         "name": "Sela Ward",
         "type": "Actor"
@@ -270,10 +232,6 @@
       {
         "name": "Ladies\u0027 Home Journal",
         "type": "Magazine"
-      },
-      {
-        "name": "Millionaire",
-        "type": "Band"
       }
     ]
   },
@@ -289,10 +247,6 @@
       {
         "name": "Nicholas Sparks",
         "type": "Writer"
-      },
-      {
-        "name": "Novel",
-        "type": "MusicalArtist"
       }
     ]
   },
@@ -397,12 +351,7 @@
       "tv_and_movies",
       "entertainment"
     ],
-    "tags": [
-      {
-        "name": "Auditions",
-        "type": "Film"
-      }
-    ]
+    "tags": []
   },
   {
     "title": "Glee Auditions: Kevin McHale\u0027s Beatles Moment",
@@ -447,10 +396,6 @@
     ],
     "tags": [
       {
-        "name": "Cast",
-        "type": "Band"
-      },
-      {
         "name": "Lori Loughlin",
         "type": "Actor"
       }
@@ -467,10 +412,6 @@
       "tv_and_movies"
     ],
     "tags": [
-      {
-        "name": "Madonna",
-        "type": "MusicalArtist"
-      },
       {
         "name": "Lady Gaga",
         "type": "MusicalArtist"
@@ -499,10 +440,6 @@
       {
         "name": "The Bachelorette",
         "type": "TelevisionShow"
-      },
-      {
-        "name": "Relationship",
-        "type": "Band"
       }
     ]
   },
@@ -524,16 +461,7 @@
       "entertainment",
       "celebrity"
     ],
-    "tags": [
-      {
-        "name": "Thor",
-        "type": "Band"
-      },
-      {
-        "name": "Facebook",
-        "type": "Company"
-      }
-    ]
+    "tags": []
   },
   {
     "title": "Glee Auditions: Dianna Agron Is Over the \u0027Moon\u0027",
@@ -544,16 +472,7 @@
       "tv_and_movies",
       "music"
     ],
-    "tags": [
-      {
-        "name": "Happy",
-        "type": "TelevisionShow"
-      },
-      {
-        "name": "Sinatra",
-        "type": "Software"
-      }
-    ]
+    "tags": []
   },
   {
     "title": "Guess Which Halloween Candy Five out of Five Stars Hate - One Question",
@@ -586,14 +505,6 @@
       {
         "name": "Geoffrey Rush",
         "type": "Actor"
-      },
-      {
-        "name": "Melbourne",
-        "type": "City"
-      },
-      {
-        "name": "Spotlight",
-        "type": "Broadcast"
       }
     ]
   },
@@ -609,14 +520,6 @@
       {
         "name": "Jake Gyllenhaal",
         "type": "Actor"
-      },
-      {
-        "name": "Prisoners",
-        "type": "Band"
-      },
-      {
-        "name": "Hol",
-        "type": "AdministrativeRegion"
       }
     ]
   },
@@ -668,10 +571,6 @@
       {
         "name": "Julia Roberts",
         "type": "Actor"
-      },
-      {
-        "name": "Carpet",
-        "type": "TelevisionEpisode"
       }
     ]
   },
@@ -684,12 +583,7 @@
       "tv_and_movies",
       "entertainment"
     ],
-    "tags": [
-      {
-        "name": "Shoot",
-        "type": "Film"
-      }
-    ]
+    "tags": []
   },
   {
     "title": "Kristen Stewart  - Twilight set visit with Seventeen",
@@ -703,14 +597,6 @@
       {
         "name": "Kristen Stewart",
         "type": "Actor"
-      },
-      {
-        "name": "Twilight",
-        "type": "Band"
-      },
-      {
-        "name": "Seventeen",
-        "type": "Film"
       }
     ]
   },
@@ -752,16 +638,7 @@
       "entertainment",
       "tv_and_movies"
     ],
-    "tags": [
-      {
-        "name": "Twilight",
-        "type": "Band"
-      },
-      {
-        "name": "Seventeen",
-        "type": "Film"
-      }
-    ]
+    "tags": []
   },
   {
     "title": "Lea Michelle Answers YOUR Questions",
@@ -772,10 +649,6 @@
       "tv_and_movies"
     ],
     "tags": [
-      {
-        "name": "Glee",
-        "type": "TelevisionShow"
-      },
       {
         "name": "Taylor Swift",
         "type": "MusicalArtist"
@@ -790,12 +663,7 @@
       "celebrity",
       "tv_and_movies"
     ],
-    "tags": [
-      {
-        "name": "Nina",
-        "type": "Film"
-      }
-    ]
+    "tags": []
   },
   {
     "title": "The Hunger Games Catching Fire Premiere - Seventeen on the Scene",
@@ -806,14 +674,6 @@
       "celebrity"
     ],
     "tags": [
-      {
-        "name": "Premiere",
-        "type": "TelevisionEpisode"
-      },
-      {
-        "name": "Seventeen",
-        "type": "Film"
-      },
       {
         "name": "Hunger Games",
         "type": "Book"
@@ -833,10 +693,6 @@
       "entertainment"
     ],
     "tags": [
-      {
-        "name": "Secrets",
-        "type": "Film"
-      },
       {
         "name": "The Hunger Games",
         "type": "Book"
@@ -878,10 +734,6 @@
       {
         "name": "Julianne Moore",
         "type": "Actor"
-      },
-      {
-        "name": "Magazine",
-        "type": "Band"
       }
     ]
   },
@@ -908,12 +760,7 @@
       "tv_and_movies",
       "entertainment"
     ],
-    "tags": [
-      {
-        "name": "DNA",
-        "type": "Band"
-      }
-    ]
+    "tags": []
   },
   {
     "title": "Angry Nerd: Peter Jackson\u0027s The Hobbit: An Unexpected Journey is Too Short-WIRED",
@@ -947,22 +794,6 @@
       "entertainment"
     ],
     "tags": [
-      {
-        "name": "NBC",
-        "type": "Broadcast"
-      },
-      {
-        "name": "Syfy",
-        "type": "Broadcast"
-      },
-      {
-        "name": "Defiance",
-        "type": "Band"
-      },
-      {
-        "name": "Culture",
-        "type": "Band"
-      },
       {
         "name": "Chris Baker",
         "type": "AmericanFootballPlayer"
@@ -1000,10 +831,6 @@
       {
         "name": "Chris Parnell",
         "type": "Actor"
-      },
-      {
-        "name": "Archer",
-        "type": "TelevisionShow"
       }
     ]
   },
@@ -1038,14 +865,6 @@
       {
         "name": "True Blood",
         "type": "TelevisionShow"
-      },
-      {
-        "name": "HBO",
-        "type": "Broadcast"
-      },
-      {
-        "name": "Wired",
-        "type": "TelevisionShow"
       }
     ]
   },
@@ -1060,10 +879,6 @@
       {
         "name": "Doctor Who",
         "type": "TelevisionShow"
-      },
-      {
-        "name": "Shaman",
-        "type": "Band"
       }
     ]
   },
@@ -1078,14 +893,6 @@
       {
         "name": "Game of Thrones",
         "type": "TelevisionShow"
-      },
-      {
-        "name": "HBO",
-        "type": "Broadcast"
-      },
-      {
-        "name": "Thrones",
-        "type": "Band"
       }
     ]
   },
@@ -1148,12 +955,7 @@
       "entertainment",
       "tv_and_movies"
     ],
-    "tags": [
-      {
-        "name": "Futurama",
-        "type": "TelevisionShow"
-      }
-    ]
+    "tags": []
   },
   {
     "title": "Angry Nerd: The Hunger Games is a Watered-Down Battle Royale and Running Man-WIRED",
@@ -1187,20 +989,12 @@
     ],
     "tags": [
       {
-        "name": "Cast",
-        "type": "Band"
-      },
-      {
         "name": "BBC America",
         "type": "Broadcast"
       },
       {
         "name": "Doctor Who",
         "type": "TelevisionShow"
-      },
-      {
-        "name": "BBC",
-        "type": "Broadcast"
       }
     ]
   },
@@ -1213,12 +1007,7 @@
       "humor",
       "entertainment"
     ],
-    "tags": [
-      {
-        "name": "Thor",
-        "type": "Band"
-      }
-    ]
+    "tags": []
   },
   {
     "title": "Ender\u0027s Game: Creating a Zero-G Battle Room Effects Exclusive-Design FX-WIRED",
@@ -1231,10 +1020,6 @@
       {
         "name": "Ender\u0027s Game",
         "type": "Book"
-      },
-      {
-        "name": "Zero",
-        "type": "Band"
       },
       {
         "name": "Gavin Hood",
@@ -1275,20 +1060,8 @@
     ],
     "tags": [
       {
-        "name": "Scoring",
-        "type": "Film"
-      },
-      {
         "name": "Guns N\u0027 Roses",
         "type": "Band"
-      },
-      {
-        "name": "Slash",
-        "type": "MusicalArtist"
-      },
-      {
-        "name": "Sub",
-        "type": "Broadcast"
       }
     ]
   },
@@ -1355,10 +1128,6 @@
     ],
     "tags": [
       {
-        "name": "Gravity",
-        "type": "Company"
-      },
-      {
         "name": "Sandra Bullock",
         "type": "Actor"
       },
@@ -1403,10 +1172,6 @@
       {
         "name": "The Happening",
         "type": "Film"
-      },
-      {
-        "name": "Chicago",
-        "type": "City"
       }
     ]
   },
@@ -1428,12 +1193,7 @@
       "entertainment",
       "tv_and_movies"
     ],
-    "tags": [
-      {
-        "name": "Art",
-        "type": "TelevisionEpisode"
-      }
-    ]
+    "tags": []
   },
   {
     "title": "The Art of Animation and Motion Graphics | Off Book | PBS Digital Studios",
@@ -1444,12 +1204,7 @@
       "perspectives",
       "entertainment"
     ],
-    "tags": [
-      {
-        "name": "Art",
-        "type": "TelevisionEpisode"
-      }
-    ]
+    "tags": []
   },
   {
     "title": "Controlling vs \"Being\" Your Video Game Avatar | Idea Channel | PBS Digital Studios",
@@ -1459,16 +1214,7 @@
       "tv_and_movies",
       "technology_and_science"
     ],
-    "tags": [
-      {
-        "name": "Avatar",
-        "type": "Band"
-      },
-      {
-        "name": "Pacman",
-        "type": "Software"
-      }
-    ]
+    "tags": []
   },
   {
     "title": "Why Do We Love Zombies? | Idea Channel | PBS Digital Studios",
@@ -1488,10 +1234,6 @@
       "celebrity"
     ],
     "tags": [
-      {
-        "name": "Intersection",
-        "type": "Film"
-      },
       {
         "name": "Nicolas Cage",
         "type": "Actor"
@@ -1552,10 +1294,6 @@
       {
         "name": "Episode 5",
         "type": "TelevisionEpisode"
-      },
-      {
-        "name": "Rory",
-        "type": "Band"
       }
     ]
   },
@@ -1610,14 +1348,6 @@
       {
         "name": "Nina Conti",
         "type": "Comedian"
-      },
-      {
-        "name": "Monkey",
-        "type": "TelevisionShow"
-      },
-      {
-        "name": "Society",
-        "type": "Film"
       }
     ]
   },
@@ -1628,12 +1358,7 @@
       "entertainment",
       "tv_and_movies"
     ],
-    "tags": [
-      {
-        "name": "Society",
-        "type": "Film"
-      }
-    ]
+    "tags": []
   },
   {
     "title": "Film School or No Film School?",
@@ -1662,10 +1387,6 @@
       {
         "name": "Iron Man",
         "type": "Band"
-      },
-      {
-        "name": "Asia",
-        "type": "Continent"
       }
     ]
   },
@@ -1676,16 +1397,7 @@
       "tv_and_movies",
       "entertainment"
     ],
-    "tags": [
-      {
-        "name": "Episode",
-        "type": "Film"
-      },
-      {
-        "name": "WOW!",
-        "type": "Company"
-      }
-    ]
+    "tags": []
   },
   {
     "title": "Downton Abbey Season 3 Finale...WOW!!",
@@ -1695,16 +1407,7 @@
       "humor",
       "tv_and_movies"
     ],
-    "tags": [
-      {
-        "name": "Finale",
-        "type": "Software"
-      },
-      {
-        "name": "WOW!",
-        "type": "Company"
-      }
-    ]
+    "tags": []
   },
   {
     "title": "Downton Abbey Season 3 Episode 2...Biggest WOW Moments!!",
@@ -1717,10 +1420,6 @@
       {
         "name": "Episode 2",
         "type": "TelevisionEpisode"
-      },
-      {
-        "name": "WOW",
-        "type": "Broadcast"
       }
     ]
   },
@@ -1748,10 +1447,6 @@
     ],
     "tags": [
       {
-        "name": "Society",
-        "type": "Film"
-      },
-      {
         "name": "Tim Heidecker",
         "type": "Actor"
       },
@@ -1776,16 +1471,8 @@
         "type": "Actor"
       },
       {
-        "name": "Rufio",
-        "type": "Band"
-      },
-      {
         "name": "Avatar: The Last Airbender",
         "type": "TelevisionShow"
-      },
-      {
-        "name": "Society",
-        "type": "Film"
       },
       {
         "name": "a tour",
@@ -1800,16 +1487,7 @@
       "tv_and_movies",
       "entertainment"
     ],
-    "tags": [
-      {
-        "name": "Premiere",
-        "type": "TelevisionEpisode"
-      },
-      {
-        "name": "WOW!",
-        "type": "Company"
-      }
-    ]
+    "tags": []
   },
   {
     "title": "Downton Abbey Season 3 Episode 5...Biggest WOW Moments!!",
@@ -1823,10 +1501,6 @@
       {
         "name": "Episode 5",
         "type": "TelevisionEpisode"
-      },
-      {
-        "name": "Cora",
-        "type": "Company"
       }
     ]
   },
@@ -1856,12 +1530,7 @@
       "tv_and_movies",
       "perspectives"
     ],
-    "tags": [
-      {
-        "name": "Society",
-        "type": "Film"
-      }
-    ]
+    "tags": []
   },
   {
     "title": "Downton Abbey Season 3 Episode 3...Biggest WOW Moments!!",
@@ -1875,14 +1544,6 @@
       {
         "name": "Episode 3",
         "type": "TelevisionEpisode"
-      },
-      {
-        "name": "Ethel",
-        "type": "RadioStation"
-      },
-      {
-        "name": "WOW",
-        "type": "Broadcast"
       }
     ]
   },
@@ -1921,20 +1582,7 @@
       "tv_and_movies",
       "entertainment"
     ],
-    "tags": [
-      {
-        "name": "Art",
-        "type": "TelevisionEpisode"
-      },
-      {
-        "name": "Hollywood",
-        "type": "Book"
-      },
-      {
-        "name": "Society",
-        "type": "Film"
-      }
-    ]
+    "tags": []
   },
   {
     "title": "Frank Langella: Robot and Frank - Sundance 2012",
@@ -1948,10 +1596,6 @@
       {
         "name": "Frank Langella",
         "type": "Actor"
-      },
-      {
-        "name": "Society",
-        "type": "Film"
       }
     ]
   },
@@ -1968,10 +1612,6 @@
       {
         "name": "Sung Kang",
         "type": "Actor"
-      },
-      {
-        "name": "Society",
-        "type": "Film"
       }
     ]
   },
@@ -1984,16 +1624,8 @@
     ],
     "tags": [
       {
-        "name": "Deal",
-        "type": "Film"
-      },
-      {
         "name": "Terrence Malick",
         "type": "Actor"
-      },
-      {
-        "name": "National",
-        "type": "Band"
       }
     ]
   },
@@ -2014,12 +1646,7 @@
       "entertainment",
       "tv_and_movies"
     ],
-    "tags": [
-      {
-        "name": "Society",
-        "type": "Film"
-      }
-    ]
+    "tags": []
   },
   {
     "title": "First Web Series Ever Selected for IFP\u0027s Independent Film Week!",
@@ -2029,12 +1656,7 @@
       "entertainment",
       "tv_and_movies"
     ],
-    "tags": [
-      {
-        "name": "Week",
-        "type": "Magazine"
-      }
-    ]
+    "tags": []
   },
   {
     "title": "What\u0027s the Deal with Godard?",
@@ -2046,10 +1668,6 @@
       "perspectives"
     ],
     "tags": [
-      {
-        "name": "Deal",
-        "type": "Film"
-      },
       {
         "name": "New Wave",
         "type": "MusicFestival"
@@ -2069,16 +1687,7 @@
       "news",
       "tv_and_movies"
     ],
-    "tags": [
-      {
-        "name": "YouTube",
-        "type": "Company"
-      },
-      {
-        "name": "Society",
-        "type": "Film"
-      }
-    ]
+    "tags": []
   },
   {
     "title": "Awesome Asian Bad Guys - Kickstarter Video",
@@ -2087,12 +1696,7 @@
       "tv_and_movies",
       "entertainment"
     ],
-    "tags": [
-      {
-        "name": "Society",
-        "type": "Film"
-      }
-    ]
+    "tags": []
   },
   {
     "title": "The Avengers - Top 5 Fan Videos",
@@ -2106,10 +1710,6 @@
       {
         "name": "The Avengers",
         "type": "TelevisionShow"
-      },
-      {
-        "name": "Avengers",
-        "type": "Band"
       }
     ]
   },
@@ -2120,12 +1720,7 @@
       "tv_and_movies",
       "entertainment"
     ],
-    "tags": [
-      {
-        "name": "Society",
-        "type": "Film"
-      }
-    ]
+    "tags": []
   },
   {
     "title": "Sundance Film Festival 2012!",
@@ -2134,12 +1729,7 @@
       "entertainment",
       "tv_and_movies"
     ],
-    "tags": [
-      {
-        "name": "Society",
-        "type": "Film"
-      }
-    ]
+    "tags": []
   },
   {
     "title": "The Mentalist Actor Tim Kang Turns Producer",
@@ -2157,10 +1747,6 @@
       {
         "name": "Tim Kang",
         "type": "Actor"
-      },
-      {
-        "name": "Society",
-        "type": "Film"
       }
     ]
   },
@@ -2172,24 +1758,7 @@
       "tv_and_movies",
       "celebrity"
     ],
-    "tags": [
-      {
-        "name": "Career",
-        "type": "Film"
-      },
-      {
-        "name": "Comic",
-        "type": "Film"
-      },
-      {
-        "name": "Con",
-        "type": "TelevisionShow"
-      },
-      {
-        "name": "Society",
-        "type": "Film"
-      }
-    ]
+    "tags": []
   },
   {
     "title": "Top 5 Filipino Actors You Should Know",
@@ -2199,16 +1768,7 @@
       "tv_and_movies",
       "entertainment"
     ],
-    "tags": [
-      {
-        "name": "Society",
-        "type": "Film"
-      },
-      {
-        "name": "National",
-        "type": "Band"
-      }
-    ]
+    "tags": []
   },
   {
     "title": "Patrick\u0027s Top 5 Movies",
@@ -2229,12 +1789,7 @@
       "arts_and_literature",
       "tv_and_movies"
     ],
-    "tags": [
-      {
-        "name": "Society",
-        "type": "Film"
-      }
-    ]
+    "tags": []
   },
   {
     "title": "Is Becoming A Filmmaker A Good Idea?",
@@ -2244,20 +1799,7 @@
       "perspectives",
       "entertainment"
     ],
-    "tags": [
-      {
-        "name": "Becoming",
-        "type": "TelevisionEpisode"
-      },
-      {
-        "name": "Filmmaker",
-        "type": "Film"
-      },
-      {
-        "name": "Idea",
-        "type": "Film"
-      }
-    ]
+    "tags": []
   },
   {
     "title": "Awesome Asian Bad Guys Is Wrapped!",
@@ -2292,16 +1834,7 @@
       "tv_and_movies",
       "entertainment"
     ],
-    "tags": [
-      {
-        "name": "Deal",
-        "type": "Film"
-      },
-      {
-        "name": "Society",
-        "type": "Film"
-      }
-    ]
+    "tags": []
   },
   {
     "title": "Awesome Asian Bad Guys Update",
@@ -2338,12 +1871,7 @@
       "tv_and_movies",
       "entertainment"
     ],
-    "tags": [
-      {
-        "name": "Society",
-        "type": "Film"
-      }
-    ]
+    "tags": []
   },
   {
     "title": "Awesome Asian Bad Guys Web Series Update",
@@ -2365,10 +1893,6 @@
       "tv_and_movies"
     ],
     "tags": [
-      {
-        "name": "Gala",
-        "type": "MusicalArtist"
-      },
       {
         "name": "George Takei",
         "type": "Actor"
@@ -2398,12 +1922,7 @@
       "tv_and_movies",
       "entertainment"
     ],
-    "tags": [
-      {
-        "name": "Hollywood",
-        "type": "Book"
-      }
-    ]
+    "tags": []
   },
   {
     "title": "Grace Su on Awesome Asian Bad Guys",
@@ -2424,12 +1943,7 @@
       "tv_and_movies",
       "entertainment"
     ],
-    "tags": [
-      {
-        "name": "Society",
-        "type": "Film"
-      }
-    ]
+    "tags": []
   },
   {
     "title": "Phil Yu on Awesome Asian Bad Guys",
@@ -2439,10 +1953,6 @@
       "entertainment"
     ],
     "tags": [
-      {
-        "name": "Han",
-        "type": "Country"
-      },
       {
         "name": "Bruce Lee",
         "type": "Artist"
@@ -2501,12 +2011,7 @@
       "entertainment",
       "tv_and_movies"
     ],
-    "tags": [
-      {
-        "name": "Jan",
-        "type": "Person"
-      }
-    ]
+    "tags": []
   },
   {
     "title": "MASTERPIECE | Downton Abbey, Season 4: New Locations | PBS",
@@ -2519,14 +2024,6 @@
       {
         "name": "Season 4",
         "type": "TelevisionEpisode"
-      },
-      {
-        "name": "London",
-        "type": "Settlement"
-      },
-      {
-        "name": "Jan",
-        "type": "Person"
       }
     ]
   },
@@ -2551,12 +2048,7 @@
       "entertainment",
       "tv_and_movies"
     ],
-    "tags": [
-      {
-        "name": "Sandy",
-        "type": "HistoricPlace"
-      }
-    ]
+    "tags": []
   },
   {
     "title": "James Lipton: Best and Worst of \"Inside the Actors Studio\"",
@@ -2574,10 +2066,6 @@
       {
         "name": "Inside the Actors Studio",
         "type": "TelevisionShow"
-      },
-      {
-        "name": "WNYC",
-        "type": "RadioStation"
       }
     ]
   },
@@ -2589,12 +2077,7 @@
       "entertainment",
       "tv_and_movies"
     ],
-    "tags": [
-      {
-        "name": "TLC",
-        "type": "Broadcast"
-      }
-    ]
+    "tags": []
   },
   {
     "title": "Why Won\u0027t Bill Maher Stop Touching Snoop Lion? | HuffPost Video",
@@ -2632,10 +2115,6 @@
       {
         "name": "Glenn Hubbard",
         "type": "BaseballPlayer"
-      },
-      {
-        "name": "CNBC",
-        "type": "Broadcast"
       }
     ]
   },
@@ -2723,18 +2202,6 @@
       {
         "name": "Breaking Bad",
         "type": "TelevisionShow"
-      },
-      {
-        "name": "Season",
-        "type": "Film"
-      },
-      {
-        "name": "Episode",
-        "type": "Film"
-      },
-      {
-        "name": "Buried",
-        "type": "Film"
       }
     ]
   },
@@ -2746,12 +2213,7 @@
       "tv_and_movies",
       "entertainment"
     ],
-    "tags": [
-      {
-        "name": "Secrets",
-        "type": "Film"
-      }
-    ]
+    "tags": []
   },
   {
     "title": "Janeane Garofalo talks Delocated",
@@ -2813,10 +2275,6 @@
     ],
     "tags": [
       {
-        "name": "Foreshadowing",
-        "type": "Band"
-      },
-      {
         "name": "Mad Men",
         "type": "TelevisionShow"
       },
@@ -2847,10 +2305,6 @@
     "tags": [
       {
         "name": "Desperate Housewives",
-        "type": "TelevisionShow"
-      },
-      {
-        "name": "Weeds",
         "type": "TelevisionShow"
       }
     ]
@@ -2941,20 +2395,8 @@
     ],
     "tags": [
       {
-        "name": "Threat",
-        "type": "Film"
-      },
-      {
         "name": "North Korea",
         "type": "Country"
-      },
-      {
-        "name": "Bravo",
-        "type": "Broadcast"
-      },
-      {
-        "name": "Sunset",
-        "type": "Film"
       }
     ]
   },
@@ -2975,12 +2417,7 @@
       "celebrity",
       "tv_and_movies"
     ],
-    "tags": [
-      {
-        "name": "Reader",
-        "type": "Book"
-      }
-    ]
+    "tags": []
   },
   {
     "title": "Chris Colfer: \u0027Glee\u0027 Stars Need To Mourn Cory Monteith Privately | HPL",
@@ -2995,10 +2432,6 @@
       {
         "name": "Chris Colfer",
         "type": "Actor"
-      },
-      {
-        "name": "Glee",
-        "type": "TelevisionShow"
       }
     ]
   },
@@ -3011,12 +2444,7 @@
       "tv_and_movies",
       "entertainment"
     ],
-    "tags": [
-      {
-        "name": "Steve-O",
-        "type": "Person"
-      }
-    ]
+    "tags": []
   },
   {
     "title": "Nick Cannon and Conceited Battle it Out | HPL",
@@ -3100,10 +2528,6 @@
     "tags": [
       {
         "name": "Prison Break",
-        "type": "TelevisionShow"
-      },
-      {
-        "name": "T-Bag",
         "type": "TelevisionShow"
       }
     ]
@@ -3253,10 +2677,6 @@
     ],
     "tags": [
       {
-        "name": "Words",
-        "type": "Book"
-      },
-      {
         "name": "Woody Allen",
         "type": "Actor"
       }
@@ -3315,12 +2735,7 @@
       "tv_and_movies",
       "entertainment"
     ],
-    "tags": [
-      {
-        "name": "SnagFilms",
-        "type": "Company"
-      }
-    ]
+    "tags": []
   },
   {
     "title": "Steve Kornacki hates \"House of Cards\"",
@@ -3386,12 +2801,7 @@
       "tv_and_movies",
       "entertainment"
     ],
-    "tags": [
-      {
-        "name": "Jordan",
-        "type": "Country"
-      }
-    ]
+    "tags": []
   },
   {
     "title": "1980s-The Reagan Era and the Rise of Crack by Don Cheadle-VF Decades Series",
@@ -3433,10 +2843,6 @@
     ],
     "tags": [
       {
-        "name": "Twilight",
-        "type": "Band"
-      },
-      {
         "name": "Robert Pattinson",
         "type": "Actor"
       }
@@ -3454,10 +2860,6 @@
       {
         "name": "The Dakota",
         "type": "HistoricPlace"
-      },
-      {
-        "name": "Ghostbusters",
-        "type": "Film"
       },
       {
         "name": "Rosemary\u0027s Baby",
@@ -3480,12 +2882,7 @@
       "entertainment",
       "tv_and_movies"
     ],
-    "tags": [
-      {
-        "name": "Hollywood",
-        "type": "Book"
-      }
-    ]
+    "tags": []
   },
   {
     "title": "Diane Kruger Talks to Krista Smith About Starring on \"The Bridge\"-@VFHollywood-Vanity Fair",
@@ -3510,16 +2907,7 @@
       "entertainment",
       "tv_and_movies"
     ],
-    "tags": [
-      {
-        "name": "Sunny",
-        "type": "Film"
-      },
-      {
-        "name": "Tor",
-        "type": "Software"
-      }
-    ]
+    "tags": []
   },
   {
     "title": "Twilight director Catherine Hardwicke, Apple Store, SoHo",
@@ -3533,10 +2921,6 @@
       {
         "name": "Catherine Hardwicke",
         "type": "Actor"
-      },
-      {
-        "name": "Twilight",
-        "type": "Band"
       }
     ]
   },
@@ -3549,10 +2933,6 @@
       "tv_and_movies"
     ],
     "tags": [
-      {
-        "name": "AMC",
-        "type": "Company"
-      },
       {
         "name": "Mad Men",
         "type": "TelevisionShow"
@@ -3573,20 +2953,8 @@
         "type": "MusicalArtist"
       },
       {
-        "name": "Biography",
-        "type": "TelevisionShow"
-      },
-      {
-        "name": "Songwriter",
-        "type": "Film"
-      },
-      {
         "name": "The Snob",
         "type": "Film"
-      },
-      {
-        "name": "Dictionary",
-        "type": "Software"
       }
     ]
   },
@@ -3600,16 +2968,8 @@
     ],
     "tags": [
       {
-        "name": "Hollywood",
-        "type": "Book"
-      },
-      {
         "name": "Angelina Jolie",
         "type": "Actor"
-      },
-      {
-        "name": "Texas",
-        "type": "AdministrativeRegion"
       }
     ]
   },
@@ -3625,10 +2985,6 @@
       {
         "name": "Man of Steel",
         "type": "Boxer"
-      },
-      {
-        "name": "Steel",
-        "type": "Broadcast"
       },
       {
         "name": "David S. Goyer",
@@ -3648,14 +3004,6 @@
       {
         "name": "Tom Hiddleston",
         "type": "Actor"
-      },
-      {
-        "name": "Loki",
-        "type": "Software"
-      },
-      {
-        "name": "Thor",
-        "type": "Band"
       },
       {
         "name": "The Avengers",
@@ -3679,10 +3027,6 @@
       {
         "name": "Chris Hemsworth",
         "type": "Actor"
-      },
-      {
-        "name": "Thor",
-        "type": "Band"
       }
     ]
   },
@@ -3702,10 +3046,6 @@
       {
         "name": "The Snob",
         "type": "Film"
-      },
-      {
-        "name": "Dictionary",
-        "type": "Software"
       },
       {
         "name": "Kurt Loder",
@@ -3733,10 +3073,6 @@
       {
         "name": "Game of Thrones",
         "type": "TelevisionShow"
-      },
-      {
-        "name": "HBO",
-        "type": "Broadcast"
       }
     ]
   },
@@ -3773,10 +3109,6 @@
         "type": "Actor"
       },
       {
-        "name": "Broadway",
-        "type": "Film"
-      },
-      {
         "name": "Under the Skin",
         "type": "Film"
       }
@@ -3794,10 +3126,6 @@
       {
         "name": "Judd Apatow",
         "type": "Writer"
-      },
-      {
-        "name": "MTV",
-        "type": "Broadcast"
       },
       {
         "name": "Spice Girls",
@@ -3820,10 +3148,6 @@
       {
         "name": "George Bush",
         "type": "NascarDriver"
-      },
-      {
-        "name": "Krazy",
-        "type": "MusicalArtist"
       }
     ]
   },
@@ -3886,10 +3210,6 @@
       "entertainment"
     ],
     "tags": [
-      {
-        "name": "WWII",
-        "type": "RadioStation"
-      },
       {
         "name": "J. D. Salinger",
         "type": "Writer"
@@ -3978,10 +3298,6 @@
         "type": "Actor"
       },
       {
-        "name": "Philomena",
-        "type": "Saint"
-      },
-      {
         "name": "Toronto International Film Festival",
         "type": "FilmFestival"
       }
@@ -4019,10 +3335,6 @@
       {
         "name": "Robert Pattinson",
         "type": "Actor"
-      },
-      {
-        "name": "Harper",
-        "type": "Film"
       }
     ]
   },
@@ -4038,14 +3350,6 @@
       {
         "name": "Gabourey Sidibe",
         "type": "Actor"
-      },
-      {
-        "name": "Hollywood",
-        "type": "Book"
-      },
-      {
-        "name": "Precious",
-        "type": "Band"
       }
     ]
   },
@@ -4088,10 +3392,6 @@
       {
         "name": "The Artist",
         "type": "SoccerPlayer"
-      },
-      {
-        "name": "Jagger",
-        "type": "Company"
       }
     ]
   },
@@ -4107,10 +3407,6 @@
       {
         "name": "Jennifer Lawrence",
         "type": "Actor"
-      },
-      {
-        "name": "X-Men",
-        "type": "TelevisionShow"
       }
     ]
   },
@@ -4136,10 +3432,6 @@
       {
         "name": "The Jerk",
         "type": "Film"
-      },
-      {
-        "name": "Hollywood",
-        "type": "Book"
       }
     ]
   },
@@ -4156,14 +3448,6 @@
       {
         "name": "United States",
         "type": "Country"
-      },
-      {
-        "name": "Ukraine",
-        "type": "Country"
-      },
-      {
-        "name": "Baywatch",
-        "type": "TelevisionShow"
       }
     ]
   },
@@ -4179,10 +3463,6 @@
       {
         "name": "Javier Bardem",
         "type": "Actor"
-      },
-      {
-        "name": "Bambi",
-        "type": "Film"
       }
     ]
   },
@@ -4277,14 +3557,6 @@
       {
         "name": "Elle Fanning",
         "type": "Actor"
-      },
-      {
-        "name": "Paris",
-        "type": "AdministrativeRegion"
-      },
-      {
-        "name": "Chanel",
-        "type": "Company"
       }
     ]
   },
@@ -4593,12 +3865,7 @@
       "tv_and_movies",
       "arts_and_literature"
     ],
-    "tags": [
-      {
-        "name": "Capsule",
-        "type": "Band"
-      }
-    ]
+    "tags": []
   },
   {
     "title": "Denzel Washington - Who Is Your Cinematic Crush?",
@@ -4622,12 +3889,7 @@
       "entertainment",
       "tv_and_movies"
     ],
-    "tags": [
-      {
-        "name": "Capsule",
-        "type": "Band"
-      }
-    ]
+    "tags": []
   },
   {
     "title": "Naomi Watts - Who Is Your Cinematic Crush?",
@@ -4652,12 +3914,7 @@
       "tv_and_movies",
       "arts_and_literature"
     ],
-    "tags": [
-      {
-        "name": "Capsule",
-        "type": "Band"
-      }
-    ]
+    "tags": []
   },
   {
     "title": "Toy Story 3 - Buzz Lightyear\u0027s memory resets",
@@ -4732,10 +3989,6 @@
       {
         "name": "Andrew Garfield",
         "type": "Actor"
-      },
-      {
-        "name": "Con",
-        "type": "TelevisionShow"
       }
     ]
   },
@@ -4751,10 +4004,6 @@
       {
         "name": "The Smurfs",
         "type": "TelevisionShow"
-      },
-      {
-        "name": "Smurfs",
-        "type": "TelevisionShow"
       }
     ]
   },
@@ -4769,10 +4018,6 @@
     "tags": [
       {
         "name": "Toy Story 3",
-        "type": "Film"
-      },
-      {
-        "name": "Toys",
         "type": "Film"
       }
     ]
@@ -4799,12 +4044,7 @@
       "tv_and_movies",
       "entertainment"
     ],
-    "tags": [
-      {
-        "name": "Orphan",
-        "type": "Film"
-      }
-    ]
+    "tags": []
   },
   {
     "title": "\u0027Tangled\u0027 trailer revamps Rapunzel",
@@ -4814,16 +4054,7 @@
       "tv_and_movies",
       "entertainment"
     ],
-    "tags": [
-      {
-        "name": "Iceberg",
-        "type": "Book"
-      },
-      {
-        "name": "Rapunzel",
-        "type": "Film"
-      }
-    ]
+    "tags": []
   },
   {
     "title": "G.I. Joe: The Rise of the Cobra- Snake eyes",
@@ -4836,10 +4067,6 @@
       {
         "name": "The Rise",
         "type": "Band"
-      },
-      {
-        "name": "Cobra",
-        "type": "Film"
       },
       {
         "name": "Paramount Pictures",
@@ -4942,10 +4169,6 @@
       {
         "name": "Michael Imperioli",
         "type": "Actor"
-      },
-      {
-        "name": "Mar",
-        "type": "Band"
       }
     ]
   },
@@ -4963,16 +4186,8 @@
         "type": "TelevisionShow"
       },
       {
-        "name": "Interview",
-        "type": "Film"
-      },
-      {
         "name": "Chris Hemsworth",
         "type": "Actor"
-      },
-      {
-        "name": "Thor",
-        "type": "Band"
       },
       {
         "name": "Steve Rogers",
@@ -5097,14 +4312,6 @@
       {
         "name": "La Luna",
         "type": "Film"
-      },
-      {
-        "name": "Pixar",
-        "type": "Company"
-      },
-      {
-        "name": "Brave",
-        "type": "Film"
       }
     ]
   },
@@ -5119,10 +4326,6 @@
       {
         "name": "Optimus Prime",
         "type": "AmericanFootballPlayer"
-      },
-      {
-        "name": "Transformers",
-        "type": "Film"
       }
     ]
   },
@@ -5289,10 +4492,6 @@
         "type": "MusicalArtist"
       },
       {
-        "name": "Tangled",
-        "type": "Film"
-      },
-      {
         "name": "Zachary Levi",
         "type": "Actor"
       },
@@ -5341,12 +4540,7 @@
       "tv_and_movies",
       "celebrity"
     ],
-    "tags": [
-      {
-        "name": "Pooh",
-        "type": "Actor"
-      }
-    ]
+    "tags": []
   },
   {
     "title": "Zombieland (2009)- Clown clip",
@@ -5355,10 +4549,6 @@
       "tv_and_movies"
     ],
     "tags": [
-      {
-        "name": "Zombieland",
-        "type": "Film"
-      },
       {
         "name": "Jesse Eisenberg",
         "type": "Actor"
@@ -5423,10 +4613,6 @@
     ],
     "tags": [
       {
-        "name": "Iceberg",
-        "type": "Book"
-      },
-      {
         "name": "Boardwalk Empire",
         "type": "TelevisionShow"
       },
@@ -5448,10 +4634,6 @@
       {
         "name": "Josh Gad",
         "type": "Actor"
-      },
-      {
-        "name": "Snowman",
-        "type": "Band"
       }
     ]
   },
@@ -5570,12 +4752,7 @@
       "tv_and_movies",
       "celebrity"
     ],
-    "tags": [
-      {
-        "name": "Nightwing",
-        "type": "Band"
-      }
-    ]
+    "tags": []
   },
   {
     "title": "Jennifer Lawrence\u0027s mom says her \u0027Catching Fire\u0027 performance is her best ever",
@@ -5609,10 +4786,6 @@
       "tv_and_movies"
     ],
     "tags": [
-      {
-        "name": "Nebraska",
-        "type": "AdministrativeRegion"
-      },
       {
         "name": "Will Forte",
         "type": "Actor"
@@ -5697,10 +4870,6 @@
         "type": "Actor"
       },
       {
-        "name": "Gale",
-        "type": "Company"
-      },
-      {
         "name": "Catching Fire",
         "type": "Book"
       },
@@ -5726,20 +4895,7 @@
       "tv_and_movies",
       "celebrity"
     ],
-    "tags": [
-      {
-        "name": "Thor",
-        "type": "Band"
-      },
-      {
-        "name": "Agents",
-        "type": "MusicalArtist"
-      },
-      {
-        "name": "Loki",
-        "type": "Software"
-      }
-    ]
+    "tags": []
   },
   {
     "title": "NEWS UPDATE: Netflix to Launch 4 Original Marvel Series",
@@ -5748,12 +4904,7 @@
       "tv_and_movies",
       "entertainment"
     ],
-    "tags": [
-      {
-        "name": "Netflix",
-        "type": "Company"
-      }
-    ]
+    "tags": []
   },
   {
     "title": "Jennifer Lawrence and Josh Hutcherson think \u0027Catching Fire\u0027 director is too nice",
@@ -5779,10 +4930,6 @@
       {
         "name": "Francis Lawrence",
         "type": "Person"
-      },
-      {
-        "name": "Hollywood",
-        "type": "Book"
       }
     ]
   },
@@ -5811,10 +4958,6 @@
       {
         "name": "Christopher Eccleston",
         "type": "Actor"
-      },
-      {
-        "name": "Thor",
-        "type": "Band"
       }
     ]
   },
@@ -5834,10 +4977,6 @@
       {
         "name": "The Avengers",
         "type": "TelevisionShow"
-      },
-      {
-        "name": "Thor",
-        "type": "Band"
       }
     ]
   },
@@ -5905,14 +5044,6 @@
       {
         "name": "Chris Pratt",
         "type": "Actor"
-      },
-      {
-        "name": "Galaxy",
-        "type": "Company"
-      },
-      {
-        "name": "Thor",
-        "type": "Band"
       }
     ]
   },
@@ -5924,12 +5055,7 @@
       "tv_and_movies",
       "entertainment"
     ],
-    "tags": [
-      {
-        "name": "World",
-        "type": "Country"
-      }
-    ]
+    "tags": []
   },
   {
     "title": "\"Conviction\" (the movie) / Hilary Swank",
@@ -5981,15 +5107,7 @@
     ],
     "tags": [
       {
-        "name": "ABC",
-        "type": "Broadcast"
-      },
-      {
         "name": "The View",
-        "type": "Band"
-      },
-      {
-        "name": "Zero",
         "type": "Band"
       }
     ]
@@ -6006,14 +5124,6 @@
       {
         "name": "Secret Millionaire",
         "type": "TelevisionShow"
-      },
-      {
-        "name": "National",
-        "type": "Band"
-      },
-      {
-        "name": "ABC",
-        "type": "Broadcast"
       }
     ]
   },
@@ -6029,10 +5139,6 @@
       {
         "name": "Ali Brown",
         "type": "Cricketer"
-      },
-      {
-        "name": "ABC",
-        "type": "Broadcast"
       },
       {
         "name": "New Show",
@@ -6087,12 +5193,7 @@
       "celebrity",
       "tv_and_movies"
     ],
-    "tags": [
-      {
-        "name": "Victim",
-        "type": "Film"
-      }
-    ]
+    "tags": []
   },
   {
     "title": "Party with Rob Lotterstein after Ellen\u0027s coming out eposide 1997",
@@ -6121,10 +5222,6 @@
       {
         "name": "Richard Grieco",
         "type": "Actor"
-      },
-      {
-        "name": "Night",
-        "type": "Book"
       }
     ]
   },
@@ -6147,12 +5244,7 @@
       "news",
       "tv_and_movies"
     ],
-    "tags": [
-      {
-        "name": "Source",
-        "type": "Company"
-      }
-    ]
+    "tags": []
   },
   {
     "title": "Jen Lilley and Kelly Sullivan Interview",
@@ -6167,10 +5259,6 @@
       {
         "name": "General Hospital",
         "type": "TelevisionShow"
-      },
-      {
-        "name": "Night",
-        "type": "Book"
       }
     ]
   },
@@ -6202,10 +5290,6 @@
       "entertainment"
     ],
     "tags": [
-      {
-        "name": "Chuck",
-        "type": "TelevisionShow"
-      },
       {
         "name": "Desperate Housewives",
         "type": "TelevisionShow"
@@ -6354,10 +5438,6 @@
     ],
     "tags": [
       {
-        "name": "Hosts",
-        "type": "Book"
-      },
-      {
         "name": "Big Breakfast",
         "type": "TelevisionShow"
       },
@@ -6428,12 +5508,7 @@
       "tv_and_movies",
       "entertainment"
     ],
-    "tags": [
-      {
-        "name": "Facebook",
-        "type": "Company"
-      }
-    ]
+    "tags": []
   },
   {
     "title": "BYOU Magazine \"Ask The Stars\" with Laura Marano at Girltopia!",
@@ -6456,10 +5531,6 @@
       {
         "name": "Disney Channel",
         "type": "Broadcast"
-      },
-      {
-        "name": "Ally",
-        "type": "Book"
       }
     ]
   },
@@ -6482,12 +5553,7 @@
       "entertainment",
       "tv_and_movies"
     ],
-    "tags": [
-      {
-        "name": "NBC",
-        "type": "Broadcast"
-      }
-    ]
+    "tags": []
   },
   {
     "title": "KTVK-ThriveTime Interview.m4v",
@@ -6498,10 +5564,6 @@
       "entertainment"
     ],
     "tags": [
-      {
-        "name": "KTVK",
-        "type": "Broadcast"
-      },
       {
         "name": "Sharon Lechter",
         "type": "Person"
@@ -6527,14 +5589,6 @@
     ],
     "tags": [
       {
-        "name": "Milton",
-        "type": "HistoricPlace"
-      },
-      {
-        "name": "Secret",
-        "type": "Band"
-      },
-      {
         "name": "Eckhart Tolle",
         "type": "Writer"
       }
@@ -6550,10 +5604,6 @@
       "perspectives"
     ],
     "tags": [
-      {
-        "name": "Interview",
-        "type": "Film"
-      },
       {
         "name": "Julie Newmar",
         "type": "Actor"
@@ -6581,12 +5631,7 @@
       "tv_and_movies",
       "entertainment"
     ],
-    "tags": [
-      {
-        "name": "Juice",
-        "type": "Film"
-      }
-    ]
+    "tags": []
   },
   {
     "title": "Lucy McGehee\u0027s Tide Commercial - \"The Paint Job\"",
@@ -6596,12 +5641,7 @@
       "tv_and_movies",
       "entertainment"
     ],
-    "tags": [
-      {
-        "name": "Job",
-        "type": "ComicsCreator"
-      }
-    ]
+    "tags": []
   },
   {
     "title": "Red Dog (2011) Official Trailer",
@@ -6694,12 +5734,7 @@
       "humor",
       "tv_and_movies"
     ],
-    "tags": [
-      {
-        "name": "Goddess",
-        "type": "Film"
-      }
-    ]
+    "tags": []
   },
   {
     "title": "The Mortal Instruments: City Of Bones (2013) Destiny Clip",
@@ -6709,12 +5744,7 @@
       "tv_and_movies",
       "entertainment"
     ],
-    "tags": [
-      {
-        "name": "Bones",
-        "type": "Company"
-      }
-    ]
+    "tags": []
   },
   {
     "title": "Jack The Giant Slayer (2013) Worlds Will Collide Clip [HD]",
@@ -6724,12 +5754,7 @@
       "tv_and_movies",
       "entertainment"
     ],
-    "tags": [
-      {
-        "name": "Slayer",
-        "type": "Band"
-      }
-    ]
+    "tags": []
   },
   {
     "title": "The Place Beyond the Pines (2013) Official Trailer [HD]",
@@ -6739,12 +5764,7 @@
       "entertainment",
       "tv_and_movies"
     ],
-    "tags": [
-      {
-        "name": "Pines",
-        "type": "HistoricPlace"
-      }
-    ]
+    "tags": []
   },
   {
     "title": "Beautiful Creatures (2013) Love and Fate Clip",
@@ -7037,10 +6057,6 @@
       {
         "name": "Beautiful Kate",
         "type": "Film"
-      },
-      {
-        "name": "Twitter",
-        "type": "Company"
       }
     ]
   },
@@ -7117,12 +6133,7 @@
       "tv_and_movies",
       "entertainment"
     ],
-    "tags": [
-      {
-        "name": "Steel",
-        "type": "Broadcast"
-      }
-    ]
+    "tags": []
   },
   {
     "title": "Kath \u0026 Kimderella (2012) Official Trailer [HD]",
@@ -7144,12 +6155,7 @@
       "tv_and_movies",
       "music"
     ],
-    "tags": [
-      {
-        "name": "Week",
-        "type": "Magazine"
-      }
-    ]
+    "tags": []
   },
   {
     "title": "The Hangover Part III (2013) Clip [HD]",
@@ -7170,12 +6176,7 @@
       "entertainment",
       "tv_and_movies"
     ],
-    "tags": [
-      {
-        "name": "Bones",
-        "type": "Company"
-      }
-    ]
+    "tags": []
   },
   {
     "title": "The Hangover Part III (2013) The Epic Finale [HD]",
@@ -7231,12 +6232,7 @@
       "movies",
       "tv_and_movies"
     ],
-    "tags": [
-      {
-        "name": "Jaeger",
-        "type": "Company"
-      }
-    ]
+    "tags": []
   },
   {
     "title": "Kath \u0026 Kimderella (2012)  Official International Trailer",
@@ -7257,12 +6253,7 @@
       "tv_and_movies",
       "entertainment"
     ],
-    "tags": [
-      {
-        "name": "Looper",
-        "type": "Band"
-      }
-    ]
+    "tags": []
   },
   {
     "title": "Mandela: Long Walk to Freedom (2014) Official Trailer [HD]",
@@ -7423,12 +6414,7 @@
       "movies",
       "tv_and_movies"
     ],
-    "tags": [
-      {
-        "name": "Chicago",
-        "type": "City"
-      }
-    ]
+    "tags": []
   },
   {
     "title": "Inside Llewyn Davis (2014) Green Green Rocky Road Clip [HD]",
@@ -7608,12 +6594,7 @@
       "tv_and_movies",
       "entertainment"
     ],
-    "tags": [
-      {
-        "name": "Interstellar",
-        "type": "Film"
-      }
-    ]
+    "tags": []
   },
   {
     "title": "Free Birds (2014) Space Turkey Clip",
@@ -7775,12 +6756,7 @@
       "tv_and_movies",
       "entertainment"
     ],
-    "tags": [
-      {
-        "name": "Nebraska",
-        "type": "AdministrativeRegion"
-      }
-    ]
+    "tags": []
   },
   {
     "title": "August: Osage County - Exclusive Q\u0026A Part 1 [HD]",
@@ -7791,12 +6767,7 @@
       "entertainment",
       "tv_and_movies"
     ],
-    "tags": [
-      {
-        "name": "Exclusive",
-        "type": "TelevisionShow"
-      }
-    ]
+    "tags": []
   },
   {
     "title": "August: Osage County - Exclusive Q\u0026A Part 2 [HD]",
@@ -7807,12 +6778,7 @@
       "perspectives",
       "tv_and_movies"
     ],
-    "tags": [
-      {
-        "name": "Exclusive",
-        "type": "TelevisionShow"
-      }
-    ]
+    "tags": []
   },
   {
     "title": "Nebraska (2014) Exclusive June Squibb \u0026 Bob Odenkirk Interview",
@@ -7823,12 +6789,7 @@
       "tv_and_movies",
       "entertainment"
     ],
-    "tags": [
-      {
-        "name": "Nebraska",
-        "type": "AdministrativeRegion"
-      }
-    ]
+    "tags": []
   },
   {
     "title": "Nebraska (2014) Exclusive Bruce Dern Interview",
@@ -7839,12 +6800,7 @@
       "perspectives",
       "tv_and_movies"
     ],
-    "tags": [
-      {
-        "name": "Nebraska",
-        "type": "AdministrativeRegion"
-      }
-    ]
+    "tags": []
   },
   {
     "title": "Nebraska (2014) Exploring Nebraska Clip",
@@ -7854,12 +6810,7 @@
       "tv_and_movies",
       "entertainment"
     ],
-    "tags": [
-      {
-        "name": "Nebraska",
-        "type": "AdministrativeRegion"
-      }
-    ]
+    "tags": []
   },
   {
     "title": "American Hustle (2013) Jennifer Lawrence Blows Up A Microwave Clip [HD]",
@@ -7908,12 +6859,7 @@
       "tv_and_movies",
       "entertainment"
     ],
-    "tags": [
-      {
-        "name": "Season",
-        "type": "Film"
-      }
-    ]
+    "tags": []
   },
   {
     "title": "Independent Lens | BETWEEN THE FOLDS | Film Clip #2",
@@ -7979,10 +6925,6 @@
       {
         "name": "Independent Lens",
         "type": "TelevisionShow"
-      },
-      {
-        "name": "Tibet",
-        "type": "ComicsCreator"
       }
     ]
   },
@@ -7997,14 +6939,6 @@
       {
         "name": "Independent Lens",
         "type": "TelevisionShow"
-      },
-      {
-        "name": "Iran",
-        "type": "Country"
-      },
-      {
-        "name": "Marjan",
-        "type": "Mountain"
       }
     ]
   },
@@ -8022,10 +6956,6 @@
       {
         "name": "The Wild Parrots of Telegraph Hill",
         "type": "Film"
-      },
-      {
-        "name": "Encore",
-        "type": "Broadcast"
       }
     ]
   },
@@ -8040,14 +6970,6 @@
       {
         "name": "Independent Lens",
         "type": "TelevisionShow"
-      },
-      {
-        "name": "Iran",
-        "type": "Country"
-      },
-      {
-        "name": "Marjan",
-        "type": "Mountain"
       }
     ]
   },
@@ -8062,10 +6984,6 @@
       {
         "name": "Independent Lens",
         "type": "TelevisionShow"
-      },
-      {
-        "name": "India",
-        "type": "Country"
       }
     ]
   },
@@ -8089,12 +7007,7 @@
       "technology_and_science",
       "home_decorating"
     ],
-    "tags": [
-      {
-        "name": "Epic",
-        "type": "Book"
-      }
-    ]
+    "tags": []
   },
   {
     "title": "CuteWinFail: Skinny Cat",
@@ -8113,12 +7026,7 @@
       "music",
       "tv_and_movies"
     ],
-    "tags": [
-      {
-        "name": "Che",
-        "type": "Film"
-      }
-    ]
+    "tags": []
   },
   {
     "title": "CuteWinFail: Roller Blading Tow Fail",

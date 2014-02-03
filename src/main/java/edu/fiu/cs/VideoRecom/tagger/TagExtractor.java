@@ -57,7 +57,7 @@ public class TagExtractor {
       
       //check duplicate
       String name = query.substring(startOffset, endOffset);
-      if(checkNameDup.contains(name)){
+      if(checkNameDup.contains(name) || name.split(" ").length < 2){
         continue;
       }else{
         checkNameDup.add(name);

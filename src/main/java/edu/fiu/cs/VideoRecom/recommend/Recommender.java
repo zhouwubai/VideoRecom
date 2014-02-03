@@ -42,13 +42,14 @@ public class Recommender {
     DoubleMatrix sim = new DoubleMatrix(simGraph);
     int[][] sortIdx = sim.rowSortingPermutations();
     List<List<YouTubeVideo>> recomVideoGroups = new ArrayList<List<YouTubeVideo>>();
-    int num = sortIdx.length;
     
     // Here we will choose four, first one is itself.
     for (int i = 0; i < sortIdx.length; i++) {
       List<YouTubeVideo> oneGroup = new ArrayList<YouTubeVideo>();
-      for (int j = 1; j <= 4; j++) {
-        oneGroup.add(videos.get(sortIdx[i][num - j]));
+      int num = sortIdx[i].length;
+      for (int j = 0; j < 4; j++) {
+//        oneGroup.add(videos.get(sortIdx[i][j]));
+        oneGroup.add(videos.get(sortIdx[i][num - j - 1]));
       }
       recomVideoGroups.add(oneGroup);
     }
@@ -61,10 +62,11 @@ public class Recommender {
     
     Recommender recom = new Recommender();
     Map<String,Double> conf = new HashMap<String, Double>();
-    conf.put(YouTubeVideo.TAG_W, 5d);
-    conf.put(YouTubeVideo.TITLE_W,2d);
-    conf.put(YouTubeVideo.DESC_W, 1d);
-    conf.put(YouTubeVideo.N_GRAM, 3d);
+    conf.put(YouTubeVideo.TAG_W, 10.0);
+    conf.put(YouTubeVideo.TITLE_W,1.0);
+    conf.put(YouTubeVideo.CATEG_W, 1.0);
+    conf.put(YouTubeVideo.DESC_W, 1.0);
+    conf.put(YouTubeVideo.N_GRAM, 2.0);
     
     JsonReader jr = new JsonReader(JsonWriter.DATA_OUT_PATH);
     recom.setVideos(YouTubeVideo.parseJsonToTaggedVideos(jr.parse().getAsJsonArray()));
@@ -102,7 +104,7 @@ public class Recommender {
         String ngram = en.getKey();
         Integer ngramidf = idf.get(ngram);// document frequency
         Double tf = en.getValue(); // term frequency
-        tf *= Math.log(numOfVideos / (ngramidf + 1)); // smoothing
+        tf *= Math.log(numOfVideos + 1 / ngramidf + 1);
         en.setValue(tf);
         norm += tf * tf;
       }
@@ -112,7 +114,7 @@ public class Recommender {
       for (Entry<String, Double> en : x.entrySet()) {
         en.setValue(en.getValue() / norm);
       }
-
+      System.out.println(x.toString());
       X.add(x);
     }
     logger.info("vectorization done");
@@ -142,6 +144,7 @@ public class Recommender {
     }
     return inner;
   }
+  
 
   public List<YouTubeVideo> getVideos() {
     return videos;
