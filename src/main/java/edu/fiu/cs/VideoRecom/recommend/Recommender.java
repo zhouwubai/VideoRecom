@@ -42,12 +42,13 @@ public class Recommender {
     DoubleMatrix sim = new DoubleMatrix(simGraph);
     int[][] sortIdx = sim.rowSortingPermutations();
     List<List<YouTubeVideo>> recomVideoGroups = new ArrayList<List<YouTubeVideo>>();
-
+    int num = sortIdx.length;
+    
     // Here we will choose four, first one is itself.
     for (int i = 0; i < sortIdx.length; i++) {
       List<YouTubeVideo> oneGroup = new ArrayList<YouTubeVideo>();
-      for (int j = 0; j < 4; j++) {
-        oneGroup.add(videos.get(sortIdx[i][j]));
+      for (int j = 1; j <= 4; j++) {
+        oneGroup.add(videos.get(sortIdx[i][num - j]));
       }
       recomVideoGroups.add(oneGroup);
     }
