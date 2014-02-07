@@ -11,6 +11,8 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import edu.fiu.cs.VideoRecom.tagger.LupediaTagExtractor;
+import edu.fiu.cs.VideoRecom.tagger.SpotlightTagExtractor;
+import edu.fiu.cs.VideoRecom.tagger.TagExtractorBase;
 import edu.fiu.cs.VideoRecom.tagger.YouTubeTag;
 
 public class TestTagExtractor {
@@ -19,7 +21,7 @@ public class TestTagExtractor {
   
   private static Logger logger = LoggerFactory.getLogger(TestTagExtractor.class);
   private String query;
-  private LupediaTagExtractor te;
+  private TagExtractorBase te;
 
   @Before
   public void setup() {
@@ -36,6 +38,12 @@ public class TestTagExtractor {
     for(YouTubeTag tag : tags) {
       System.out.println(tag.toString());
     }
+    
+    te = new SpotlightTagExtractor();
+    te.tag(query);
+    for(YouTubeTag tag : tags) {
+        System.out.println(tag.toString());
+      }
   }
 
 }

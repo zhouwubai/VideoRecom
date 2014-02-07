@@ -13,14 +13,12 @@ import org.slf4j.LoggerFactory;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
-import com.google.gson.JsonParser;
 
 public class LupediaTagExtractor extends TagExtractorBase{
 
-  public static Logger logger = LoggerFactory.getLogger(LupediaTagExtractor.class);
-  public static String dbUrlBase = "http://lupedia.ontotext.com/lookup/text2json";
+  private static Logger logger = LoggerFactory.getLogger(LupediaTagExtractor.class);
+  private static String dbUrlBase = "http://lupedia.ontotext.com/lookup/text2json";
 
-  private static JsonParser parser = new JsonParser();
   private String query;
 
   // = "Keegan-Michael Key and Jordan Peele sit "
