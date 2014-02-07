@@ -23,7 +23,7 @@ public class YouTubeTagger {
     
     //Here we can try to speedup using multi thread
     int count = 1;
-    TagExtractor tagE = new TagExtractor();
+    LupediaTagExtractor tagE = new LupediaTagExtractor();
     for(YouTubeVideo video: videos) {
       String lookupText = video.getTitle() + video.getDescription();
       List<YouTubeTag> tags = tagE.tag(lookupText);

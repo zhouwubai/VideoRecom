@@ -10,7 +10,7 @@ import org.junit.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import edu.fiu.cs.VideoRecom.tagger.TagExtractor;
+import edu.fiu.cs.VideoRecom.tagger.LupediaTagExtractor;
 import edu.fiu.cs.VideoRecom.tagger.YouTubeTag;
 
 public class TestTagExtractor {
@@ -19,11 +19,11 @@ public class TestTagExtractor {
   
   private static Logger logger = LoggerFactory.getLogger(TestTagExtractor.class);
   private String query;
-  private TagExtractor te;
+  private LupediaTagExtractor te;
 
   @Before
   public void setup() {
-    this.te = new TagExtractor();
+    this.te = new LupediaTagExtractor();
     this.query = "Beverly D\u0027Angelo reads a copy of "
         + "More in a meeting with Ari on the HBO Series Entourage.";
   }

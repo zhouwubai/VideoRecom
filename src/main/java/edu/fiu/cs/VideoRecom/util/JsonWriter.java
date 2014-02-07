@@ -19,6 +19,7 @@ public class JsonWriter {
 
   public static String DATA_OUT_PATH = "./src/test/resources/TaggedDataSet.json";
   public static String RECOM_DATA_OUT_PATH = "./src/test/resources/RecommDataSet.json";
+  public static String TEST_SAMPLE = "./src/test/resources/TaggedDataSetTestSample.json";
   
   private static Logger logger = LoggerFactory.getLogger(JsonWriter.class);
   private static Gson gson = new GsonBuilder()

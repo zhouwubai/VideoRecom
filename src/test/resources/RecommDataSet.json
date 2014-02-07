@@ -349,21 +349,6 @@
       ]
     },
     {
-      "title": "More Oscar Predictions on CBS Early Show 2/26/11",
-      "description": "More Magazine Film Critic Alison Bailes gives her Oscar predicitions on the Saturday Early Show.",
-      "categories": [
-        "celebrity",
-        "entertainment",
-        "tv_and_movies"
-      ],
-      "tags": [
-        {
-          "name": "Early Show",
-          "type": "TelevisionShow"
-        }
-      ]
-    },
-    {
       "title": "More Contributing Editor Alison Bailes On the Today Show, 5/20/11",
       "description": "More magazine Contributing Editor Alison Bailes teams up with another mother for a new Today Show series, Two Moms and a Movie. The two review the latest fil...",
       "categories": [
@@ -377,6 +362,17 @@
       "description": "More magazine movie critic, Alison Bailes, joins the Today Show for thier \"Who Knew?\" movie trivia game.",
       "categories": [
         "entertainment",
+        "tv_and_movies"
+      ],
+      "tags": []
+    },
+    {
+      "title": "Blank on Blank Trailer | PBS Digitial Studios",
+      "description": "More info @ blankonblank.org.",
+      "categories": [
+        "entertainment",
+        "celebrity",
+        "music",
         "tv_and_movies"
       ],
       "tags": []
@@ -538,21 +534,6 @@
       ]
     },
     {
-      "title": "More Oscar Predictions Alison Bailes on GMA 2/27/11",
-      "description": "More Magazine Film Critic Alison Bailes gives her Oscar predictions on Good Morning America.",
-      "categories": [
-        "celebrity",
-        "tv_and_movies",
-        "entertainment"
-      ],
-      "tags": [
-        {
-          "name": "Good Morning America",
-          "type": "TelevisionShow"
-        }
-      ]
-    },
-    {
       "title": "More Magazine movie critic, Alison Bailes, on the Today Show 9 15 2010",
       "description": "More magazine movie critic, Alison Bailes, joins the Today Show for thier \"Who Knew?\" movie trivia game.",
       "categories": [
@@ -566,6 +547,17 @@
       "description": "More magazine Contributing Editor Alison Bailes teams up with another mother for a new Today Show series, Two Moms and a Movie. The two review the latest fil...",
       "categories": [
         "entertainment",
+        "tv_and_movies"
+      ],
+      "tags": []
+    },
+    {
+      "title": "Blank on Blank Trailer | PBS Digitial Studios",
+      "description": "More info @ blankonblank.org.",
+      "categories": [
+        "entertainment",
+        "celebrity",
+        "music",
         "tv_and_movies"
       ],
       "tags": []
@@ -944,12 +936,13 @@
       ]
     },
     {
-      "title": "Lynn Hirschberg\u0027s Screen Tests: James Franco - Part 2",
-      "description": "In Part Two of Lynn Hirschberg\u0027s interview with James Franco, the actor cracks a smile while explaining his highly conceptual collaboration with an artist na...",
+      "title": "James Franco on James Franco, Part 5",
+      "description": "The do-everything actor\u0027s brother, Dave, conducts an interview while visiting their old apartment — and come to terms with their mother. Watch Esquire TV: ht...",
       "categories": [
         "celebrity",
-        "entertainment",
-        "tv_and_movies"
+        "tv_and_movies",
+        "perspectives",
+        "entertainment"
       ],
       "tags": [
         {
@@ -959,13 +952,12 @@
       ]
     },
     {
-      "title": "James Franco on James Franco, Part 5",
-      "description": "The do-everything actor\u0027s brother, Dave, conducts an interview while visiting their old apartment — and come to terms with their mother. Watch Esquire TV: ht...",
+      "title": "Lynn Hirschberg\u0027s Screen Tests: James Franco - Part 2",
+      "description": "In Part Two of Lynn Hirschberg\u0027s interview with James Franco, the actor cracks a smile while explaining his highly conceptual collaboration with an artist na...",
       "categories": [
         "celebrity",
-        "tv_and_movies",
-        "perspectives",
-        "entertainment"
+        "entertainment",
+        "tv_and_movies"
       ],
       "tags": [
         {
@@ -1239,22 +1231,6 @@
       "tags": []
     },
     {
-      "title": "Glee Auditions: Kevin McHale\u0027s Beatles Moment",
-      "description": "The actor reveals which Lennon-McCartney song he used for his try-out for the FOX comedy -Get 4 free issues of PEOPLE Magazine when you subscribe here: https...",
-      "categories": [
-        "celebrity",
-        "entertainment",
-        "music",
-        "tv_and_movies"
-      ],
-      "tags": [
-        {
-          "name": "Kevin McHale",
-          "type": "Person"
-        }
-      ]
-    },
-    {
       "title": "Glee Auditions: Dianna Agron Is Over the \u0027Moon\u0027",
       "description": "Happy throwback Thursday: The FOX comedy\u0027s resident mean girl reveals her audition song (Hint: It\u0027s Sinatra)",
       "categories": [
@@ -1262,6 +1238,16 @@
         "celebrity",
         "tv_and_movies",
         "music"
+      ],
+      "tags": []
+    },
+    {
+      "title": "The Art of Being an Extra",
+      "description": "How awesome is it to be a movie extra in Hollywood? Find out as the National Film Society takes you behind the scenes of an LA film shoot. Randall Park Twitt...",
+      "categories": [
+        "celebrity",
+        "tv_and_movies",
+        "entertainment"
       ],
       "tags": []
     }
@@ -1762,21 +1748,6 @@
       "tags": []
     },
     {
-      "title": "Harrison Ford on the Hollywood Film Awards Red Carpet",
-      "description": "The star shares what draws him to the film roles he chooses live on the 2013 Hollywood Film Awards red carpet.",
-      "categories": [
-        "celebrity",
-        "tv_and_movies",
-        "entertainment"
-      ],
-      "tags": [
-        {
-          "name": "Harrison Ford",
-          "type": "Actor"
-        }
-      ]
-    },
-    {
       "title": "Crashing the San Diego Asian Film Festival Gala",
       "description": "At the San Diego Asian Film Festival\u0027s swanky awards gala, Patrick and Stephen hang out on the red carpet, where they see several familiar faces and make eve...",
       "categories": [
@@ -1784,6 +1755,16 @@
         "entertainment",
         "tv_and_movies",
         "arts_and_literature"
+      ],
+      "tags": []
+    },
+    {
+      "title": "The Vampire Diaries Cast Answers YOUR Questions!",
+      "description": "See what Nina, Paul, Ian, and the rest of the cast had to say about filming steamy scenes, embarrassing moments on set, and the hot guys auditioning without ...",
+      "categories": [
+        "entertainment",
+        "celebrity",
+        "tv_and_movies"
       ],
       "tags": []
     }
@@ -1938,21 +1919,6 @@
       "tags": []
     },
     {
-      "title": "Q\u0026A with Twilight\u0027s Robert Pattinson at the Apple Store Soho",
-      "description": "For a write up and photos from the event, go to http://www.vanityfair.com/online/culture/2008/11/04/twilight-at-the-apple-store.html Actor Robert Pattinson a...",
-      "categories": [
-        "celebrity",
-        "entertainment",
-        "tv_and_movies"
-      ],
-      "tags": [
-        {
-          "name": "Robert Pattinson",
-          "type": "Actor"
-        }
-      ]
-    },
-    {
       "title": "HBO Clear History",
       "description": "",
       "categories": [
@@ -1970,6 +1936,16 @@
         "celebrity",
         "news",
         "tv_and_movies"
+      ],
+      "tags": []
+    },
+    {
+      "title": "Top 5 Filipino Actors You Should Know",
+      "description": "Who are the top Filipino actors to distinguish themselves in the world of entertainment? Watch the National Film Society\u0027s definitive judgement. New National...",
+      "categories": [
+        "celebrity",
+        "tv_and_movies",
+        "entertainment"
       ],
       "tags": []
     }
@@ -2018,15 +1994,6 @@
       ]
     },
     {
-      "title": "Seventeen\u0027s Twilight set visit",
-      "description": "Seventeen takes you behind the scenes of the filming of the movie Twilight. For more great videos from Seventeen check out: http://www.seventeen.com/fun-stuf...",
-      "categories": [
-        "entertainment",
-        "tv_and_movies"
-      ],
-      "tags": []
-    },
-    {
       "title": "Comic Con 2012 - \u0027Twilight Saga: Breaking Dawn pt 2\u0027 Panel Part 2 of 3",
       "description": "Kristen Stewart, Robert Pattinson, Taylor Lautner, Stephenie Meyer, and Mackenzie Foy discuss their final go round with \u0027Twilight Saga: Breaking Dawn Part 2\u0027...",
       "categories": [
@@ -2056,6 +2023,15 @@
           "type": "Writer"
         }
       ]
+    },
+    {
+      "title": "Seventeen\u0027s Twilight set visit",
+      "description": "Seventeen takes you behind the scenes of the filming of the movie Twilight. For more great videos from Seventeen check out: http://www.seventeen.com/fun-stuf...",
+      "categories": [
+        "entertainment",
+        "tv_and_movies"
+      ],
+      "tags": []
     }
   ],
   [
@@ -2298,11 +2274,10 @@
       ]
     },
     {
-      "title": "Victors or Losers? The \u0027Catching Fire\u0027 cast tells us how they\u0027d fare in a real Hunger Games",
-      "description": "Riot\u0027s Liana Maeby hit the red carpet at the \"Hunger Games: Catching Fire\" premiere to ask the cast how they\u0027d do in a real Hunger Games. Find what stars lik...",
+      "title": "\u0027Catching Fire\u0027 Stuns With $161.1 Million Opening",
+      "description": "Moviegoers satiated their appetite for the \"Hunger Games\" franchise by making the sequel \"Catching Fire\" one of the year\u0027s biggest hits. Watch Full Segment H...",
       "categories": [
         "entertainment",
-        "celebrity",
         "tv_and_movies"
       ],
       "tags": [
@@ -2317,10 +2292,11 @@
       ]
     },
     {
-      "title": "\u0027Catching Fire\u0027 Stuns With $161.1 Million Opening",
-      "description": "Moviegoers satiated their appetite for the \"Hunger Games\" franchise by making the sequel \"Catching Fire\" one of the year\u0027s biggest hits. Watch Full Segment H...",
+      "title": "Victors or Losers? The \u0027Catching Fire\u0027 cast tells us how they\u0027d fare in a real Hunger Games",
+      "description": "Riot\u0027s Liana Maeby hit the red carpet at the \"Hunger Games: Catching Fire\" premiere to ask the cast how they\u0027d do in a real Hunger Games. Find what stars lik...",
       "categories": [
         "entertainment",
+        "celebrity",
         "tv_and_movies"
       ],
       "tags": [
@@ -2652,6 +2628,21 @@
       ]
     },
     {
+      "title": "The Hobbit: The Desolation of Smaug (2013) Stupendous Clip",
+      "description": "The Hobbit: The Desolation of Smaug (2013) In Cinemas Boxing Day Follow Roadshow Films online: Film news and releases to you first: http://facebook.com/roads...",
+      "categories": [
+        "movies",
+        "entertainment",
+        "tv_and_movies"
+      ],
+      "tags": [
+        {
+          "name": "The Hobbit",
+          "type": "Book"
+        }
+      ]
+    },
+    {
       "title": "The Hobbit: The Desolation of Smaug (2013) World Premiere Highlights",
       "description": "The Hobbit: The Desolation of Smaug (2013) In Cinemas Boxing Day Follow Roadshow Films online: Exclusive Behind The Scenes Images: http://instagram.com/roads...",
       "categories": [
@@ -2670,21 +2661,6 @@
     {
       "title": "The Hobbit: The Desolation of Smaug (2013) Our Fight Clip [HD]",
       "description": "The Hobbit: The Desolation of Smaug (2013) In Cinemas Boxing Day Follow Roadshow Films online: Exclusive Behind The Scenes Images: http://instagram.com/roads...",
-      "categories": [
-        "movies",
-        "entertainment",
-        "tv_and_movies"
-      ],
-      "tags": [
-        {
-          "name": "The Hobbit",
-          "type": "Book"
-        }
-      ]
-    },
-    {
-      "title": "The Hobbit: The Desolation of Smaug (2013) Stupendous Clip",
-      "description": "The Hobbit: The Desolation of Smaug (2013) In Cinemas Boxing Day Follow Roadshow Films online: Film news and releases to you first: http://facebook.com/roads...",
       "categories": [
         "movies",
         "entertainment",
@@ -3083,25 +3059,6 @@
       ]
     },
     {
-      "title": "Key \u0026 Peele Talk Game of Thrones, New Season, and Comic Con-WIRED Interviews",
-      "description": "Keegan-Michael Key and Jordan Peele sit down with Peter Rubin to talk about their love of Game of Thrones, their favorite comedy sketches, and what to expect...",
-      "categories": [
-        "celebrity",
-        "tv_and_movies",
-        "entertainment"
-      ],
-      "tags": [
-        {
-          "name": "Game of Thrones",
-          "type": "TelevisionShow"
-        },
-        {
-          "name": "Jordan Peele",
-          "type": "Actor"
-        }
-      ]
-    },
-    {
       "title": "Emilia Clarke Teases Hints From Season 4 of \"Game of Thrones\" - Vanity Fair",
       "description": "Emilia Clarke, who plays Daenerys Targaryen in HBO\u0027s Game of Thrones, gives Krista Smith some insider info about the show\u0027s fourth season and not being a rea...",
       "categories": [
@@ -3117,6 +3074,25 @@
         {
           "name": "Game of Thrones",
           "type": "TelevisionShow"
+        }
+      ]
+    },
+    {
+      "title": "Key \u0026 Peele Talk Game of Thrones, New Season, and Comic Con-WIRED Interviews",
+      "description": "Keegan-Michael Key and Jordan Peele sit down with Peter Rubin to talk about their love of Game of Thrones, their favorite comedy sketches, and what to expect...",
+      "categories": [
+        "celebrity",
+        "tv_and_movies",
+        "entertainment"
+      ],
+      "tags": [
+        {
+          "name": "Game of Thrones",
+          "type": "TelevisionShow"
+        },
+        {
+          "name": "Jordan Peele",
+          "type": "Actor"
         }
       ]
     },
@@ -4652,26 +4628,22 @@
       "tags": []
     },
     {
-      "title": "Rory Scovel - Batman | Modern Comedian - Episode 5",
-      "description": "EPISODE 5 is the very funny Rory Scovel. Not only is Rory one of the funniest people I\u0027ve ever met, he is also a huge fan of the Batman movies and the movie ...",
-      "categories": [
-        "tv_and_movies",
-        "entertainment"
-      ],
-      "tags": [
-        {
-          "name": "Episode 5",
-          "type": "TelevisionEpisode"
-        }
-      ]
-    },
-    {
       "title": "Red Carpet Mind Reader - Oscars 2013",
       "description": "Ever wonder what the Stars are thinking? We take the guess work out and reveal whats on the mind of the stars at the Academy Awards 2013.",
       "categories": [
         "entertainment",
         "celebrity",
         "tv_and_movies"
+      ],
+      "tags": []
+    },
+    {
+      "title": "Will There Be a Chuck Movie? Zachary Levi Confirms - Chatter",
+      "description": "Did the Thor: The Dark World star answer the question you submitted on Facebook? Find out!",
+      "categories": [
+        "tv_and_movies",
+        "entertainment",
+        "celebrity"
       ],
       "tags": []
     }
@@ -4946,18 +4918,13 @@
       "tags": []
     },
     {
-      "title": "Downton Abbey Season 3 Episode 2...Biggest WOW Moments!!",
-      "description": "Although it\u0027s Edith\u0027s wedding day, there are plenty of WOW moments to go around in this exciting Downton Abbey episode. Please LIKE and SHARE to see more Dow...",
+      "title": "A Message For Our Fans",
+      "description": "Hey NFS friends, here\u0027s a quick update on a change to our schedule. Thanks for all of your ongoing support! Looking forward to sharing more videos and Awesom...",
       "categories": [
-        "tv_and_movies",
-        "entertainment"
+        "entertainment",
+        "tv_and_movies"
       ],
-      "tags": [
-        {
-          "name": "Episode 2",
-          "type": "TelevisionEpisode"
-        }
-      ]
+      "tags": []
     }
   ],
   [
@@ -4990,19 +4957,13 @@
       "tags": []
     },
     {
-      "title": "Downton Abbey Season 3 Episode 5...Biggest WOW Moments!!",
-      "description": "SPOILER ALERT! New Downton recap including Branson stirring up trouble, Daisy getting lucky and Cora vs. Robert. Please LIKE and SHARE! Watch our previous Do...",
+      "title": "MASTERPIECE | Sherlock Lives Preview | PBS",
+      "description": "Sherlock Season 3 premieres Sunday, Jan. 19, 2014, on MASTERPIECE on PBS, right after Downton Abbey.",
       "categories": [
-        "celebrity",
         "entertainment",
         "tv_and_movies"
       ],
-      "tags": [
-        {
-          "name": "Episode 5",
-          "type": "TelevisionEpisode"
-        }
-      ]
+      "tags": []
     }
   ],
   [
@@ -5233,19 +5194,14 @@
       "tags": []
     },
     {
-      "title": "Downton Abbey Season 3 Episode 3...Biggest WOW Moments!!",
-      "description": "Branson\u0027s sudden appearance, Ethel\u0027s downward spiral and Jimmy\u0027s glorious arrival are just a few of the WOW moments in this Downton Abbey episode. Please LIK...",
+      "title": "Red Carpet Mind Reader - Oscars 2013",
+      "description": "Ever wonder what the Stars are thinking? We take the guess work out and reveal whats on the mind of the stars at the Academy Awards 2013.",
       "categories": [
+        "entertainment",
         "celebrity",
-        "tv_and_movies",
-        "entertainment"
+        "tv_and_movies"
       ],
-      "tags": [
-        {
-          "name": "Episode 3",
-          "type": "TelevisionEpisode"
-        }
-      ]
+      "tags": []
     }
   ],
   [
@@ -5683,32 +5639,21 @@
       "tags": []
     },
     {
-      "title": "What\u0027s the Deal with Godard?",
-      "description": "Everything you wanted to know about famous French New Wave filmmaker Jean-Luc Godard but were too lazy to look up on Wikipedia yourself. New National Film So...",
-      "categories": [
-        "celebrity",
-        "entertainment",
-        "tv_and_movies",
-        "perspectives"
-      ],
-      "tags": [
-        {
-          "name": "New Wave",
-          "type": "MusicFestival"
-        },
-        {
-          "name": "Jean-Luc Godard",
-          "type": "Actor"
-        }
-      ]
-    },
-    {
       "title": "Awesome Asian Bad Guys Web Series Update",
       "description": "What\u0027s been going on with Awesome Asian Bad Guys? A lot! Here\u0027s a look at what we\u0027ve been doing to bring our kickass web series to life. Pick up the new AABG...",
       "categories": [
         "humor",
         "tv_and_movies",
         "entertainment"
+      ],
+      "tags": []
+    },
+    {
+      "title": "How to Land a Hollywood Agent and Become a Movie Star-Vanity Code-Vanity Fair\u0027s Animated Tips",
+      "description": "You\u0027ve written a brilliant screenplay, but you don\u0027t have the all-important Hollywood representation. Not to worry. Follow these easy steps, all from the com...",
+      "categories": [
+        "entertainment",
+        "tv_and_movies"
       ],
       "tags": []
     }
@@ -5869,26 +5814,22 @@
       "tags": []
     },
     {
-      "title": "What\u0027s the Deal with Malick?",
-      "description": "Everything you wanted to know about acclaimed but reclusive filmmaker Terrence Malick but were too lazy to look up on Wikipedia yourself. Watch more National...",
-      "categories": [
-        "tv_and_movies",
-        "entertainment"
-      ],
-      "tags": [
-        {
-          "name": "Terrence Malick",
-          "type": "Actor"
-        }
-      ]
-    },
-    {
       "title": "Top 5 Filipino Actors You Should Know",
       "description": "Who are the top Filipino actors to distinguish themselves in the world of entertainment? Watch the National Film Society\u0027s definitive judgement. New National...",
       "categories": [
         "celebrity",
         "tv_and_movies",
         "entertainment"
+      ],
+      "tags": []
+    },
+    {
+      "title": "What Is The National Film Society?",
+      "description": "Meet Patrick and Stephen, the brainy and offbeat filmmakers behind the PBS Digital Studios web series National Film Society. New National Film Society Video ...",
+      "categories": [
+        "entertainment",
+        "tv_and_movies",
+        "perspectives"
       ],
       "tags": []
     }
@@ -6511,20 +6452,6 @@
       "tags": []
     },
     {
-      "title": "What\u0027s the Deal with Malick?",
-      "description": "Everything you wanted to know about acclaimed but reclusive filmmaker Terrence Malick but were too lazy to look up on Wikipedia yourself. Watch more National...",
-      "categories": [
-        "tv_and_movies",
-        "entertainment"
-      ],
-      "tags": [
-        {
-          "name": "Terrence Malick",
-          "type": "Actor"
-        }
-      ]
-    },
-    {
       "title": "2nd Annual National Film Society Awards Nominations",
       "description": "It\u0027s time to reveal the nominees for the 2nd Annual National Film Society Awards. Who do you want to win? The Nominees Best Supporting Actress Michelle Krusi...",
       "categories": [
@@ -6534,24 +6461,23 @@
       "tags": []
     },
     {
-      "title": "What\u0027s the Deal with Godard?",
-      "description": "Everything you wanted to know about famous French New Wave filmmaker Jean-Luc Godard but were too lazy to look up on Wikipedia yourself. New National Film So...",
+      "title": "Awesome Asian Bad Guys Web Series Update",
+      "description": "What\u0027s been going on with Awesome Asian Bad Guys? A lot! Here\u0027s a look at what we\u0027ve been doing to bring our kickass web series to life. Pick up the new AABG...",
       "categories": [
-        "celebrity",
-        "entertainment",
+        "humor",
         "tv_and_movies",
-        "perspectives"
+        "entertainment"
       ],
-      "tags": [
-        {
-          "name": "New Wave",
-          "type": "MusicFestival"
-        },
-        {
-          "name": "Jean-Luc Godard",
-          "type": "Actor"
-        }
-      ]
+      "tags": []
+    },
+    {
+      "title": "Sundance Film Festival 2012!",
+      "description": "The National Film Society is incredibly excited to be attending the 2012 Sundance Film Festival in Park City, UT. How excited? This much... New National Film...",
+      "categories": [
+        "entertainment",
+        "tv_and_movies"
+      ],
+      "tags": []
     }
   ],
   [
@@ -7212,18 +7138,13 @@
       "tags": []
     },
     {
-      "title": "MASTERPIECE | Downton Abbey, Season 4: New Locations | PBS",
-      "description": "From the streets of London to lavish parties -- see what new locations await in Downton Abbey Season 4. [Downton Abbey Season 4 premieres Sunday, Jan. 5, 201...",
+      "title": "Downton Abbey Season 3 Episode 4...WOW!!",
+      "description": "MASSIVE SPOILER ALERT! Our recap of the heartbreaking tragedy that rocked Downton Abbey. Please LIKE and SHARE to see more Downton WOW videos! Watch our prev...",
       "categories": [
         "tv_and_movies",
         "entertainment"
       ],
-      "tags": [
-        {
-          "name": "Season 4",
-          "type": "TelevisionEpisode"
-        }
-      ]
+      "tags": []
     }
   ],
   [
@@ -9009,19 +8930,15 @@
       "tags": []
     },
     {
-      "title": "Breaking Bad\u0027s Skinny Pete Talks Acting | HPL",
-      "description": "Subscribe to HuffPost Live Today: http://bit.ly/13Rzzjw Watch The Latest From HPL Here: http://goo.gl/KFIW2 **** More Below **** \u0027Breaking Bad\u0027s Skinny Pete ...",
+      "title": "The Way We Talk About Honey Boo Boo VS. Quvenzhané Wallis | HuffPost Video",
+      "description": "Subscribe to the HuffPost Today: http://goo.gl/xW6HG Watch More HuffPost Originals Here: http://goo.gl/zZlXH Which little girls is it \"ok\" to make fun of? Mo...",
       "categories": [
         "celebrity",
-        "entertainment",
-        "tv_and_movies"
+        "humor",
+        "tv_and_movies",
+        "entertainment"
       ],
-      "tags": [
-        {
-          "name": "Breaking Bad",
-          "type": "TelevisionShow"
-        }
-      ]
+      "tags": []
     }
   ],
   [
@@ -10424,19 +10341,13 @@
       "tags": []
     },
     {
-      "title": "Q\u0026A with Twilight\u0027s Robert Pattinson at the Apple Store Soho",
-      "description": "For a write up and photos from the event, go to http://www.vanityfair.com/online/culture/2008/11/04/twilight-at-the-apple-store.html Actor Robert Pattinson a...",
+      "title": "Seventeen\u0027s Twilight set visit",
+      "description": "Seventeen takes you behind the scenes of the filming of the movie Twilight. For more great videos from Seventeen check out: http://www.seventeen.com/fun-stuf...",
       "categories": [
-        "celebrity",
         "entertainment",
         "tv_and_movies"
       ],
-      "tags": [
-        {
-          "name": "Robert Pattinson",
-          "type": "Actor"
-        }
-      ]
+      "tags": []
     }
   ],
   [
@@ -12653,22 +12564,6 @@
       "tags": []
     },
     {
-      "title": "Carey Mulligan - What Movie Made You Cry?",
-      "description": "Lynn Hirschberg asks the charming Carey Mulligan what movie made her cry.",
-      "categories": [
-        "celebrity",
-        "entertainment",
-        "tv_and_movies",
-        "perspectives"
-      ],
-      "tags": [
-        {
-          "name": "Carey Mulligan",
-          "type": "Actor"
-        }
-      ]
-    },
-    {
       "title": "Lynn Hirschberg\u0027s Screen Tests: Charlize Theron",
       "description": "The South African actress explains why her early school photos showcase an untraditional smile, how she exaggerated her way through her first audition and co...",
       "categories": [
@@ -12676,6 +12571,17 @@
         "tv_and_movies",
         "perspectives",
         "entertainment"
+      ],
+      "tags": []
+    },
+    {
+      "title": "Omar Sy - Who Is Your Cinematic Crush?",
+      "description": "Lynn Hirschberg asks Omar Sy which celebrity makes him swoon.",
+      "categories": [
+        "celebrity",
+        "entertainment",
+        "perspectives",
+        "tv_and_movies"
       ],
       "tags": []
     }
@@ -13037,19 +12943,14 @@
       "tags": []
     },
     {
-      "title": "Charlize Theron - What Movie Made You Cry?",
-      "description": "Lynn Hirschberg asks the actress what movie made her cry.",
+      "title": "Red Carpet Mind Reader - Oscars 2013",
+      "description": "Ever wonder what the Stars are thinking? We take the guess work out and reveal whats on the mind of the stars at the Academy Awards 2013.",
       "categories": [
-        "celebrity",
         "entertainment",
+        "celebrity",
         "tv_and_movies"
       ],
-      "tags": [
-        {
-          "name": "Charlize Theron",
-          "type": "Actor"
-        }
-      ]
+      "tags": []
     }
   ],
   [
@@ -13080,27 +12981,22 @@
       "tags": []
     },
     {
-      "title": "Charlize Theron - What Movie Made You Cry?",
-      "description": "Lynn Hirschberg asks the actress what movie made her cry.",
-      "categories": [
-        "celebrity",
-        "entertainment",
-        "tv_and_movies"
-      ],
-      "tags": [
-        {
-          "name": "Charlize Theron",
-          "type": "Actor"
-        }
-      ]
-    },
-    {
       "title": "Omar Sy - Who Is Your Cinematic Crush?",
       "description": "Lynn Hirschberg asks Omar Sy which celebrity makes him swoon.",
       "categories": [
         "celebrity",
         "entertainment",
         "perspectives",
+        "tv_and_movies"
+      ],
+      "tags": []
+    },
+    {
+      "title": "Lynn Hirschberg\u0027s Screen Tests: Jessica Biel",
+      "description": "The Total Recall actress reveals her favorite movies growing up, why she never wanted to play the lame-o, scaredy cat girls and what makes her go super hippie.",
+      "categories": [
+        "celebrity",
+        "entertainment",
         "tv_and_movies"
       ],
       "tags": []
@@ -13133,35 +13029,23 @@
       "tags": []
     },
     {
-      "title": "Charlize Theron - What Movie Made You Cry?",
-      "description": "Lynn Hirschberg asks the actress what movie made her cry.",
+      "title": "The Bachelor Tells All | HPL",
+      "description": "Subscribe to HuffPost Live Today: http://bit.ly/13Rzzjw \u0027The Bachelor\u0027 Sean Lowe gave Catherine Giudici the final rose and a sparkling ring! They\u0027re here to ...",
       "categories": [
-        "celebrity",
         "entertainment",
+        "celebrity",
         "tv_and_movies"
       ],
-      "tags": [
-        {
-          "name": "Charlize Theron",
-          "type": "Actor"
-        }
-      ]
+      "tags": []
     },
     {
-      "title": "Javier Bardem - What Movie Made You Cry?",
-      "description": "Lynn Hirschberg asks the actor what movie made him cry.",
+      "title": "SnagFilms",
+      "description": "",
       "categories": [
-        "celebrity",
-        "entertainment",
         "tv_and_movies",
-        "perspectives"
+        "entertainment"
       ],
-      "tags": [
-        {
-          "name": "Javier Bardem",
-          "type": "Actor"
-        }
-      ]
+      "tags": []
     }
   ],
   [
@@ -13385,34 +13269,26 @@
       "tags": []
     },
     {
-      "title": "Naomi Watts - Who Is Your Cinematic Crush?",
-      "description": "Lynn Hirschberg asks Naomi Watts which celebrity makes her swoon.",
-      "categories": [
-        "celebrity",
-        "entertainment",
-        "tv_and_movies"
-      ],
-      "tags": [
-        {
-          "name": "Naomi Watts",
-          "type": "Actor"
-        }
-      ]
-    },
-    {
-      "title": "Denzel Washington - Who Is Your Cinematic Crush?",
-      "description": "Lynn Hirschberg asks Denzel Washington which celebrity makes him swoon.",
+      "title": "Lynn Hirschberg\u0027s Screen Tests: Charlize Theron",
+      "description": "The South African actress explains why her early school photos showcase an untraditional smile, how she exaggerated her way through her first audition and co...",
       "categories": [
         "celebrity",
         "tv_and_movies",
+        "perspectives",
         "entertainment"
       ],
-      "tags": [
-        {
-          "name": "Denzel Washington",
-          "type": "Actor"
-        }
-      ]
+      "tags": []
+    },
+    {
+      "title": "Marcia Cross On Live With Kelly",
+      "description": "Aired December 1, 2011.",
+      "categories": [
+        "celebrity",
+        "entertainment",
+        "tv_and_movies",
+        "perspectives"
+      ],
+      "tags": []
     }
   ],
   [
@@ -13546,34 +13422,25 @@
       "tags": []
     },
     {
-      "title": "Denzel Washington - Who Is Your Cinematic Crush?",
-      "description": "Lynn Hirschberg asks Denzel Washington which celebrity makes him swoon.",
+      "title": "Marcia Cross On Live With Kelly",
+      "description": "Aired December 1, 2011.",
+      "categories": [
+        "celebrity",
+        "entertainment",
+        "tv_and_movies",
+        "perspectives"
+      ],
+      "tags": []
+    },
+    {
+      "title": "HOMELAND SEASON 2 HD DVD",
+      "description": "",
       "categories": [
         "celebrity",
         "tv_and_movies",
         "entertainment"
       ],
-      "tags": [
-        {
-          "name": "Denzel Washington",
-          "type": "Actor"
-        }
-      ]
-    },
-    {
-      "title": "Naomi Watts - Who Is Your Cinematic Crush?",
-      "description": "Lynn Hirschberg asks Naomi Watts which celebrity makes her swoon.",
-      "categories": [
-        "celebrity",
-        "entertainment",
-        "tv_and_movies"
-      ],
-      "tags": [
-        {
-          "name": "Naomi Watts",
-          "type": "Actor"
-        }
-      ]
+      "tags": []
     }
   ],
   [
@@ -13656,19 +13523,14 @@
       "tags": []
     },
     {
-      "title": "Naomi Watts - Who Is Your Cinematic Crush?",
-      "description": "Lynn Hirschberg asks Naomi Watts which celebrity makes her swoon.",
+      "title": "HOMELAND SEASON 2 HD DVD",
+      "description": "",
       "categories": [
         "celebrity",
-        "entertainment",
-        "tv_and_movies"
+        "tv_and_movies",
+        "entertainment"
       ],
-      "tags": [
-        {
-          "name": "Naomi Watts",
-          "type": "Actor"
-        }
-      ]
+      "tags": []
     }
   ],
   [
@@ -13751,19 +13613,14 @@
       "tags": []
     },
     {
-      "title": "Denzel Washington - Who Is Your Cinematic Crush?",
-      "description": "Lynn Hirschberg asks Denzel Washington which celebrity makes him swoon.",
+      "title": "HOMELAND SEASON 2 HD DVD",
+      "description": "",
       "categories": [
         "celebrity",
         "tv_and_movies",
         "entertainment"
       ],
-      "tags": [
-        {
-          "name": "Denzel Washington",
-          "type": "Actor"
-        }
-      ]
+      "tags": []
     }
   ],
   [
@@ -15186,6 +15043,33 @@
       ]
     },
     {
+      "title": "Kristen Stewart and Eddie Redmayne- \"The Yellow Handkerchief\" Interview",
+      "description": "Kristen Stewart and Eddie Redmayne talk \"The Yellow Handkerchief\" and \"Breaking Dawn.\"",
+      "categories": [
+        "celebrity",
+        "entertainment",
+        "tv_and_movies"
+      ],
+      "tags": [
+        {
+          "name": "Kristen Stewart",
+          "type": "Actor"
+        },
+        {
+          "name": "Eddie Redmayne",
+          "type": "Actor"
+        },
+        {
+          "name": "The Yellow Handkerchief",
+          "type": "Film"
+        },
+        {
+          "name": "Breaking Dawn",
+          "type": "Book"
+        }
+      ]
+    },
+    {
       "title": "Comic Con 2012 - \u0027Twilight Saga: Breaking Dawn pt 2\u0027 Panel Part 2 of 3",
       "description": "Kristen Stewart, Robert Pattinson, Taylor Lautner, Stephenie Meyer, and Mackenzie Foy discuss their final go round with \u0027Twilight Saga: Breaking Dawn Part 2\u0027...",
       "categories": [
@@ -15213,33 +15097,6 @@
         {
           "name": "Stephenie Meyer",
           "type": "Writer"
-        }
-      ]
-    },
-    {
-      "title": "Kristen Stewart and Eddie Redmayne- \"The Yellow Handkerchief\" Interview",
-      "description": "Kristen Stewart and Eddie Redmayne talk \"The Yellow Handkerchief\" and \"Breaking Dawn.\"",
-      "categories": [
-        "celebrity",
-        "entertainment",
-        "tv_and_movies"
-      ],
-      "tags": [
-        {
-          "name": "Kristen Stewart",
-          "type": "Actor"
-        },
-        {
-          "name": "Eddie Redmayne",
-          "type": "Actor"
-        },
-        {
-          "name": "The Yellow Handkerchief",
-          "type": "Film"
-        },
-        {
-          "name": "Breaking Dawn",
-          "type": "Book"
         }
       ]
     },
@@ -15710,29 +15567,25 @@
       ]
     },
     {
-      "title": "\u0027Nebraska\u0027s\u0027 Will Forte, June Squibb and Bob Odenkirk talk Bruce Dern and the Actor\u0027s Studio",
-      "description": "Will Forte, June Squibb and Bob Odenkirk sit down with Drew McWeeny to talk about Bruce Dern\u0027s legendary status as actor and teacher in his performance for A...",
+      "title": "Inglorious Bastards (2009)- Diane Kruger Interview",
+      "description": "HitFix\u0027s Drew McWeeny talks to Diane Kruger, star of \u0027Inglorious Bastards\u0027.",
       "categories": [
         "entertainment",
-        "celebrity",
-        "tv_and_movies"
+        "tv_and_movies",
+        "arts_and_literature"
       ],
       "tags": [
         {
-          "name": "Will Forte",
-          "type": "Actor"
-        },
-        {
-          "name": "Bob Odenkirk",
-          "type": "Actor"
-        },
-        {
-          "name": "Bruce Dern",
-          "type": "Actor"
+          "name": "Inglorious Bastards",
+          "type": "Film"
         },
         {
           "name": "Drew McWeeny",
           "type": "Person"
+        },
+        {
+          "name": "Diane Kruger",
+          "type": "Actor"
         }
       ]
     }
@@ -16951,33 +16804,22 @@
       ]
     },
     {
-      "title": "Liam Hemsworth on Gale\u0027s fight and passion in \u0027Catching Fire\u0027",
-      "description": "Liam Hemsworth explains how Gale steps up in \u0027The Hunger Games: Catching Fire\u0027 while Woody Harrelson on how Francis Lawrence become a second great father on ...",
+      "title": "The Hunger Games: Catching Fire (2013) Exclusive Teaser Trailer [HD]",
+      "description": "The Hunger Games: Catching Fire (2013) In Cinemas Nov 21 Follow Roadshow Films online: Weekly competitions and trending film buzz: http://twitter.com/roadsho...",
       "categories": [
-        "entertainment",
+        "movies",
+        "celebrity",
         "tv_and_movies",
-        "celebrity"
+        "entertainment"
       ],
       "tags": [
-        {
-          "name": "Liam Hemsworth",
-          "type": "Actor"
-        },
-        {
-          "name": "Catching Fire",
-          "type": "Book"
-        },
         {
           "name": "The Hunger Games",
           "type": "Book"
         },
         {
-          "name": "Woody Harrelson",
-          "type": "Actor"
-        },
-        {
-          "name": "Francis Lawrence",
-          "type": "Person"
+          "name": "Catching Fire",
+          "type": "Book"
         }
       ]
     }
@@ -20022,10 +19864,11 @@
       ]
     },
     {
-      "title": "The Hobbit: The Desolation of Smaug (2013) Enter The Mountain Clip [HD]",
+      "title": "The Hobbit: The Desolation of Smaug (2013) World Premiere Highlights",
       "description": "The Hobbit: The Desolation of Smaug (2013) In Cinemas Boxing Day Follow Roadshow Films online: Exclusive Behind The Scenes Images: http://instagram.com/roads...",
       "categories": [
         "movies",
+        "celebrity",
         "tv_and_movies",
         "entertainment"
       ],

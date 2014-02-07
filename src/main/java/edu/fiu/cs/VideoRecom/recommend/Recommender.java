@@ -62,14 +62,15 @@ public class Recommender {
     
     Recommender recom = new Recommender();
     Map<String,Double> conf = new HashMap<String, Double>();
-    conf.put(YouTubeVideo.TAG_W, 10.0);
+    conf.put(YouTubeVideo.TAG_W, 50.0);
     conf.put(YouTubeVideo.TITLE_W,1.0);
     conf.put(YouTubeVideo.CATEG_W, 1.0);
     conf.put(YouTubeVideo.DESC_W, 1.0);
     conf.put(YouTubeVideo.N_GRAM, 2.0);
     
     JsonReader jr = new JsonReader(JsonWriter.DATA_OUT_PATH);
-    recom.setVideos(YouTubeVideo.parseJsonToTaggedVideos(jr.parse().getAsJsonArray()));
+    List<YouTubeVideo> videos =  YouTubeVideo.parseJsonToTaggedVideos(jr.parse().getAsJsonArray());
+    recom.setVideos(videos);
     recom.setConf(conf);
     
     recom.recommend();
