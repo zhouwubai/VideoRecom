@@ -73,8 +73,8 @@ public class YouTubeVideo {
    * @return tf term frequency
    */
   public Map<String, Double> getNgrams(Map<String, Double> conf) {
-    Double tagW = conf.containsKey(TAG_W) ? conf.get(TAG_W) : 3;
-    Double titleW = conf.containsKey(TITLE_W) ? conf.get(TITLE_W) : 1;
+    Double tagW = conf.containsKey(TAG_W) ? conf.get(TAG_W) : 50;
+    Double titleW = conf.containsKey(TITLE_W) ? conf.get(TITLE_W) : 3;
     Double categW = conf.containsKey(CATEG_W) ? conf.get(CATEG_W) : 1;
     Double descW = conf.containsKey(DESC_W) ? conf.get(DESC_W) : 1;
     Double ngram = conf.containsKey(N_GRAM) ? conf.get(N_GRAM) : 3;
@@ -82,10 +82,24 @@ public class YouTubeVideo {
     Map<String, Double> tf = new HashMap<String, Double>();
     // every occurrence of tag times tagW
     for (YouTubeTag tag : tags) {
-      if (tf.containsKey(tag.getName())) {
-        tf.put(tag.getName(), tf.get(tag.getName()) + tagW * 1);
-      } else {
-        tf.put(tag.getName(), tagW * 1);
+//      if (tf.containsKey(tag.getName())) {
+//        tf.put(tag.getName(), tf.get(tag.getName()) + tagW * 1);
+//      } else {
+//        tf.put(tag.getName(), tagW * 1);
+//      }
+      String[] words = tag.getName().split(" ");
+      for (int n = 1; n < ngram; n++) {
+        for (int i = 0; i < words.length - n + 1; i++) {
+          String tmpGram = words[i];
+          for (int j = 1; j < n; j++) {
+            tmpGram += " " + words[i + j];
+          }
+          if (tf.containsKey(tmpGram)) {
+            tf.put(tmpGram, tf.get(tmpGram) + tagW * 1);
+          } else {
+            tf.put(tmpGram, tagW * 1);
+          }
+        }
       }
     }
     

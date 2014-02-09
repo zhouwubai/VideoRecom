@@ -14,9 +14,10 @@ import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 
-public class LupediaTagExtractor extends TagExtractorBase{
+public class LupediaTagExtractor extends TagExtractorBase {
 
-  private static Logger logger = LoggerFactory.getLogger(LupediaTagExtractor.class);
+  private static Logger logger = LoggerFactory
+      .getLogger(LupediaTagExtractor.class);
   private static String dbUrlBase = "http://lupedia.ontotext.com/lookup/text2json";
 
   private String query;
@@ -30,7 +31,7 @@ public class LupediaTagExtractor extends TagExtractorBase{
     try {
       rtnJson = Jsoup.connect(dbUrlBase).data("lookupText", query)
           .method(Method.POST).ignoreContentType(true).execute().body();
-      logger.info("sendRequest complete...");
+//      logger.info("sendRequest complete...");
       return rtnJson;
     } catch (IOException e) {
       // TODO Auto-generated catch block
@@ -52,17 +53,17 @@ public class LupediaTagExtractor extends TagExtractorBase{
       int startOffset = jsonTag.get("startOffset").getAsInt();
       int endOffset = jsonTag.get("endOffset").getAsInt();
       String instanceClass = jsonTag.get("instanceClass").getAsString();
-      
-      //check duplicate
+
+      // check duplicate
       String name = query.substring(startOffset, endOffset);
-      if(checkNameDup.contains(name) || name.split(" ").length < 2){
+      if (checkNameDup.contains(name) || name.split(" ").length < 2) {
         continue;
-      }else{
+      } else {
         checkNameDup.add(name);
       }
-      
+
       tag.setName(query.substring(startOffset, endOffset));
-      tag.setType(instanceClass.substring(instanceClass.lastIndexOf("/")+1));
+      tag.setType(instanceClass.substring(instanceClass.lastIndexOf("/") + 1));
       tags.add(tag);
     }
 

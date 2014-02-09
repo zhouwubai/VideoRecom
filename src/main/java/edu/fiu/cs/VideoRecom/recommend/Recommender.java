@@ -62,7 +62,7 @@ public class Recommender {
     
     Recommender recom = new Recommender();
     Map<String,Double> conf = new HashMap<String, Double>();
-    conf.put(YouTubeVideo.TAG_W, 50.0);
+    conf.put(YouTubeVideo.TAG_W, 100.0);
     conf.put(YouTubeVideo.TITLE_W,1.0);
     conf.put(YouTubeVideo.CATEG_W, 1.0);
     conf.put(YouTubeVideo.DESC_W, 1.0);

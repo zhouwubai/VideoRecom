@@ -22,97 +22,109 @@ import com.google.gson.JsonObject;
 
 public class SpotlightTagExtractor extends TagExtractorBase {
 
-	private static Logger logger = LoggerFactory
-			.getLogger(SpotlightTagExtractor.class);
-	private static String dbUrlBase = "http://spotlight.dbpedia.org/rest/spot/";
+  private static Logger logger = LoggerFactory
+      .getLogger(SpotlightTagExtractor.class);
+  private static String dbUrlBase = "http://spotlight.dbpedia.org/rest/spot/";
 
-	private String query;
+  private String query;
 
-	// = "Keegan-Michael Key and Jordan Peele sit "
-	// + "down with Peter Rubin to talk about their love of Game of Thrones, "
-	// + "their favorite comedy sketches";
+  // = "Keegan-Michael Key and Jordan Peele sit "
+  // + "down with Peter Rubin to talk about their love of Game of Thrones, "
+  // + "their favorite comedy sketches";
 
-	public static void main(String[] args) {
+  public static void main(String[] args) {
 
-		String query = "Beverly D\u0027Angelo reads a copy of "
-				+ "More in a meeting with Ari on the HBO Series Entourage.";
-		TagExtractorBase te = new SpotlightTagExtractor();
-		te.tag(query);
+    String query = "MindMovies home pageMindmovies home page.";
+    TagExtractorBase te = new SpotlightTagExtractor();
+    te.tag(query);
 
-	}
+  }
 
-	private String sendRequest() {
-		HttpClient httpClient = new DefaultHttpClient();
-		URIBuilder builder = new URIBuilder();
-		builder.setScheme("http").setHost("spotlight.dbpedia.org")
-				.setPath("/rest/spot/").setParameter("text", query)
-				.setParameter("spotter", "LingPipeSpotter")
-				.setParameter("confidence", "0.4");
-		URI uri = null;
-		try {
-			uri = builder.build();
-			logger.info(uri.toString());
+  private String sendRequest() {
+    HttpClient httpClient = new DefaultHttpClient();
+    URIBuilder builder = new URIBuilder();
+    builder.setScheme("http").setHost("spotlight.dbpedia.org")
+        .setPath("/rest/spot/").setParameter("text", query)
+        .setParameter("spotter", "LingPipeSpotter")
+        .setParameter("confidence", "0.4");
+    URI uri = null;
+    try {
+      uri = builder.build();
+       logger.info(uri.toString());
 
-		} catch (URISyntaxException e1) {
-			// TODO Auto-generated catch block
-			e1.printStackTrace();
-		}
+    } catch (URISyntaxException e1) {
+      // TODO Auto-generated catch block
+      e1.printStackTrace();
+    }
 
-		HttpGet getRequest = new HttpGet(uri);
-		getRequest.addHeader("accept", "application/json");
-		try {
-			HttpResponse response = httpClient.execute(getRequest);
-			if (response.getStatusLine().getStatusCode() != 200) {
-				logger.info("Failed: Http error code : "
-						+ response.getStatusLine().getStatusCode());
-				return "[]";
-			}
+    HttpGet getRequest = new HttpGet(uri);
+    getRequest.addHeader("accept", "application/json");
+    try {
+      HttpResponse response = httpClient.execute(getRequest);
+      if (response.getStatusLine().getStatusCode() != 200) {
+        logger.info("Failed: Http error code : "
+            + response.getStatusLine().getStatusCode());
+        return "{\"annotation\":{\"surfaceForm\":[]}}";
+      }
 
-			BufferedReader br = new BufferedReader(new InputStreamReader(
-					response.getEntity().getContent()));
-			StringBuffer sb = new StringBuffer();
-			String line = "";
-			while ((line = br.readLine()) != null) {
-				sb.append(line);
-			}
-			return sb.toString();
-		} catch (Exception e) {
-			e.printStackTrace();
-			logger.error("error happens when sending request to database,skip this task....");
-			return "[]";
-		}
-	}
+      BufferedReader br = new BufferedReader(new InputStreamReader(response
+          .getEntity().getContent()));
+      StringBuffer sb = new StringBuffer();
+      String line = "";
+      while ((line = br.readLine()) != null) {
+        sb.append(line);
+      }
+      return sb.toString();
+    } catch (Exception e) {
+      e.printStackTrace();
+      logger
+          .error("error happens when sending request to database,skip this task....");
+      return "{\"annotation\":{\"surfaceForm\":[]}}";
+    }
+  }
 
-	private List<YouTubeTag> parseJsonToTag(String json) {
-		JsonArray rawTags = parser.parse(json).getAsJsonObject()
-				.get("surfaceForm").getAsJsonArray();
-		List<YouTubeTag> tags = new ArrayList<YouTubeTag>();
+  private List<YouTubeTag> parseJsonToTag(String json) {
+    List<YouTubeTag> tags = new ArrayList<YouTubeTag>();
+    
+    JsonObject jsonObj = parser.parse(json).getAsJsonObject().get("annotation")
+        .getAsJsonObject();
+    JsonArray rawTags = new JsonArray();
+    if(jsonObj != null && jsonObj.get("surfaceForm") != null){
+      if(jsonObj.get("surfaceForm").isJsonArray()){
+        rawTags = jsonObj.get("surfaceForm").getAsJsonArray();
+      }else{
+        rawTags.add(jsonObj.get("surfaceForm"));
+      }
+    }
+    else{
+      return tags;
+    }
+    
+    HashSet<String> checkNameDup = new HashSet<String>();
+    for (JsonElement e : rawTags) {
+      YouTubeTag tag = new YouTubeTag();
+      JsonObject jsonTag = e.getAsJsonObject();
 
-		HashSet<String> checkNameDup = new HashSet<String>();
-		for (JsonElement e : rawTags) {
-			YouTubeTag tag = new YouTubeTag();
-			JsonObject jsonTag = e.getAsJsonObject();
+      // check duplicate
+      String name = jsonTag.get("@name").getAsString();
+      if (checkNameDup.contains(name)) {
+        continue;
+      } else {
+        checkNameDup.add(name);
+      }
 
-			// check duplicate
-			String name = jsonTag.get("@name").getAsString();
-			if (checkNameDup.contains(name)) {
-				continue;
-			} else {
-				checkNameDup.add(name);
-			}
+      tag.setName(name);
+      tag.setType("@name");
+      tags.add(tag);
+    }
 
-			tag.setName(name);
-			tag.setType("@name");
-			tags.add(tag);
-		}
+    return tags;
+  }
 
-		return tags;
-	}
-
-	@Override
-	public List<YouTubeTag> tag(String lookupText) {
-		this.query = lookupText;
-		return parseJsonToTag(sendRequest());
-	}
+  @Override
+  public List<YouTubeTag> tag(String lookupText) {
+    this.query = lookupText;
+    return parseJsonToTag(sendRequest());
+  }
 
 }
